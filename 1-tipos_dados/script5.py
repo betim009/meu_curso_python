@@ -1,11 +1,13 @@
 """
-Símbolo              Definição
-""                   string -> texto (representa texto entre aspas)
-nome()               chamada de métodos ou funções (invoca funções)
-.nome                acesso a um método ou propriedade de um objeto
-[]                   listas (também usado para acessar elementos por índice)
-{}                   dicionários (também usados para criar conjuntos)
-
+-------------------------------------------------------------------------------
+Símbolo |             Definição
+-------------------------------------------------------------------------------
+""      |             string -> texto (representa texto entre aspas)
+nome()  |             chamada de métodos ou funções (invoca funções)
+.nome   |             acesso a um método ou propriedade de um objeto
+[]      |             listas (também usado para acessar elementos por índice)
+{}      |             dicionários (também usados para criar conjuntos)
+-------------------------------------------------------------------------------
 Observações:
 - Números não possuem "", são representados sem aspas.
 - Decimais são separados por . (ponto), não por , (vírgula).
