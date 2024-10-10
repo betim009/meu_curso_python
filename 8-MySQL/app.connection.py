@@ -20,15 +20,9 @@ try:
         # Cria um cursor para executar consultas
         cursor = connection.cursor()
 
-        # Exemplo de uma consulta SELECT
-        cursor.execute("SELECT * FROM users")
-
-        # Recuperar todos os resultados da consulta
-        resultados = cursor.fetchall()
-
-        # Exibir os resultados
-        for index, linha in enumerate(resultados):
-            print(linha[1])
+        cursor.execute("SELECT DATABASE();")
+        result = cursor.fetchone()
+        print(f"Banco de dados conectado: {result}")
 
 except mysql.connector.Error as err:
     print(f"Erro: {err}")
