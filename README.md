@@ -28,3 +28,10 @@ Marque os conceitos que foram concluidos.
 * [ ]  5 - Requests
 * [ ]  6 - Arquivos
 * [ ]  7 - Pandas
+
+
+### Instalações:
+py -m pip install matplotlib
+py -m pip install flask
+py -m pip install pandas
+py -m pip install mysql2
