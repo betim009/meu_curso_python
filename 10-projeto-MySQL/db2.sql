@@ -1,3 +1,6 @@
+DROP DATABASE IF EXISTS my_db2;
+
+
 CREATE DATABASE my_db2;
 
 use my_db2;
