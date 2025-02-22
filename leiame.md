@@ -74,7 +74,7 @@ contador = 0  # Variável global
 - **Boas práticas**: Use nomes descritivos, siga a convenção `snake_case`, evite variáveis globais e palavras reservadas.
 
 ## 2. Tipos de Dados
-[] Marcar como lido.
+* [ ] Marcar como lido.
 
 Em Python, os tipos de dados representam diferentes tipos de valores. Cada tipo de dado tem características próprias e operações que podem ser feitas sobre ele.
 
