@@ -1,8 +1,8 @@
-# Material python
+# Material Python
 
 ## 1. Variáveis
 
-* [ ]  Marcar como lido.
+* [ ] Marcar como lido.
 
 Uma **variável** é um nome que se refere a um valor armazenado na memória do computador. Em Python, a variável é definida automaticamente pelo valor atribuído. Não é necessário declarar o tipo da variável antecipadamente, o Python faz isso de forma dinâmica.
 
@@ -36,10 +36,12 @@ Usar variáveis traz várias vantagens, como:
 
   - **Correto**: `idade`, `nome_usuario`, `altura_media`
   - **Errado**: `x`, `y`, `a1`
+
 - **Use Notação PEP8**: A convenção do Python sugere o uso de `snake_case` para variáveis. Isso significa usar letras minúsculas e separar palavras com underscores (`_`).
 
   - **Correto**: `quantidade_produtos`, `preco_total`
   - **Errado**: `quantidadeProdutos`, `precoTotal`
+
 - **Evite Palavras Reservadas**: Não use palavras reservadas do Python (como `class`, `def`, `for`, etc.) como nome de variáveis.
 - **Seja Conciso, Mas Claro**: Use nomes curtos, mas que ainda façam sentido. Por exemplo, ao invés de `numero_de_items_na_lista`, use apenas `num_items`.
 
@@ -63,10 +65,10 @@ Sempre que possível, prefira usar variáveis dentro de funções ou blocos espe
 ```python
 # Evite
 contador = 0  # Variável global
+```
 
 ### Resumo
+
 - **Quando usar**: Para armazenar e manipular dados temporários.
 - **Por que usar**: Torna o código mais legível, reutilizável e fácil de manter.
 - **Boas práticas**: Use nomes descritivos, siga a convenção `snake_case`, evite variáveis globais e palavras reservadas.
-
-```
