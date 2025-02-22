@@ -72,3 +72,176 @@ contador = 0  # Variável global
 - **Quando usar**: Para armazenar e manipular dados temporários.
 - **Por que usar**: Torna o código mais legível, reutilizável e fácil de manter.
 - **Boas práticas**: Use nomes descritivos, siga a convenção `snake_case`, evite variáveis globais e palavras reservadas.
+
+## 2. Tipos de Dados
+[] Marcar como lido.
+
+Em Python, os tipos de dados representam diferentes tipos de valores. Cada tipo de dado tem características próprias e operações que podem ser feitas sobre ele.
+
+### Tipos Comuns em Python
+
+#### Strings (str)
+Usadas para representar textos.
+
+```python
+produto = "Notebook"
+usuario = "Carlos Silva"
+```
+
+Métodos úteis para strings:
+
+```python
+# Convertendo para maiúsculas
+print(produto.upper())  # NOTEBOOK
+
+# Convertendo para minúsculas
+print(usuario.lower())  # carlos silva
+
+# Substituindo caracteres
+print(produto.replace("Note", "Ultra"))  # Ultrabook
+```
+
+#### Números (int e float)
+Usados para representar valores numéricos inteiros e decimais.
+
+```python
+preco = 1999.99  # Float
+quantidade = 10  # Inteiro
+```
+
+Operações aritméticas básicas:
+
+```python
+# Soma
+valor_total = preco * quantidade
+print(valor_total)  # 19999.9
+
+# Divisão inteira
+parcelas = valor_total // 5
+print(parcelas)  # 3999
+
+# Módulo (resto da divisão)
+resto = valor_total % 3
+print(resto)  # 1.9
+```
+
+#### Booleanos (bool)
+Usados para representar verdadeiro ou falso.
+
+```python
+estoque_disponivel = True
+cliente_logado = False
+```
+
+Métodos úteis para booleanos:
+
+```python
+print(str(estoque_disponivel))  # 'True' (convertendo para string)
+print(int(cliente_logado))  # 0 (convertendo para número)
+```
+
+#### Listas (list)
+São coleções ordenadas e mutáveis de itens.
+
+```python
+usuarios = ["Maria", "João", "Carlos"]
+produtos = ["Notebook", "Celular", "Tablet"]
+```
+
+Manipulação de listas:
+
+```python
+# Adicionar item
+usuarios.append("Ana")
+print(usuarios)  # ['Maria', 'João', 'Carlos', 'Ana']
+
+# Remover item
+produtos.remove("Tablet")
+print(produtos)  # ['Notebook', 'Celular']
+```
+
+#### Tuplas (tuple)
+Semelhantes às listas, mas imutáveis.
+
+```python
+cores = ("vermelho", "azul", "verde")
+print(cores[1])  # azul
+```
+
+#### Conjuntos (set)
+Usados para armazenar valores únicos e sem ordem definida.
+
+```python
+categorias = {"Eletrônicos", "Roupas", "Livros"}
+categorias.add("Móveis")
+print(categorias)  # {'Eletrônicos', 'Roupas', 'Livros', 'Móveis'}
+```
+
+#### Dicionários (dict)
+Armazenam pares chave-valor.
+
+```python
+usuario_info = {
+    "nome": "João",
+    "idade": 25,
+    "compras": ["Notebook", "Celular"]
+}
+
+# Acessando valores
+print(usuario_info["nome"])  # João
+
+# Adicionando um novo par
+usuario_info["email"] = "joao@example.com"
+print(usuario_info)
+```
+
+### Exemplos mais complexos
+
+#### Lista de dicionários
+
+```python
+usuarios = [
+    {"nome": "Maria", "idade": 28, "cidade": "São Paulo"},
+    {"nome": "João", "idade": 35, "cidade": "Rio de Janeiro"}
+]
+print(usuarios[1]["cidade"])  # Rio de Janeiro
+```
+
+#### Dicionário com listas que contêm dicionários
+
+```python
+loja = {
+    "eletronicos": [
+        {"produto": "Notebook", "preco": 3500.0},
+        {"produto": "Celular", "preco": 1200.0}
+    ],
+    "moveis": [
+        {"produto": "Mesa", "preco": 450.0},
+        {"produto": "Cadeira", "preco": 250.0}
+    ]
+}
+
+print(loja["eletronicos"][0]["produto"])  # Notebook
+```
+
+### Quando escolher o tipo de dado correto?
+
+- **Use listas** quando precisar armazenar múltiplos itens e a ordem for importante.
+- **Use tuplas** quando quiser armazenar valores que não devem ser alterados.
+- **Use conjuntos** quando precisar de valores únicos e sem ordem.
+- **Use dicionários** quando precisar associar chaves a valores.
+- **Use strings** para armazenar textos e nomes.
+- **Use números inteiros e decimais** para cálculos e preços.
+- **Use booleanos** para representar verdadeiro ou falso.
+
+### Boas práticas para os tipos de dados
+
+- Escolha sempre o tipo mais adequado para otimizar o desempenho.
+- Evite modificar tuplas, pois elas são imutáveis.
+- Utilize chaves descritivas em dicionários para facilitar a leitura.
+- Para grandes coleções de dados, prefira listas ou dicionários em vez de muitas variáveis soltas.
+- Quando for necessário armazenar dados únicos, prefira `set` ao invés de listas.
+- Ao trabalhar com números que exigem alta precisão, utilize a biblioteca `decimal`.
+
+
+

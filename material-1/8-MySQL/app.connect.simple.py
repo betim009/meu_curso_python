@@ -5,7 +5,7 @@ config = {
     "user": "root",
     "password": "1234",  # sua senha
     "host": "localhost",  # ou o IP do servidor MySQL
-    "database": "my_db2",
+    "database": "simple_user",
     "raise_on_warnings": True,
 }
 
