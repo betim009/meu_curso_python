@@ -21,10 +21,12 @@ cursor.execute("SELECT * FROM users")
 # Recuperar todos os resultados da consulta
 result = cursor.fetchall()
 
+print('resultado do result:', result)
+
 # Exibindo em formato de lista de dicionário
 for row in result:
     print({
-        "id": row[0], "user": row[1], "email": row[2]
+        "id": row[0], "user": row[1], "url": row[2]
     })
 
 # Encerrando

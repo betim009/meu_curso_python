@@ -1,0 +1,8 @@
+id,nome,cpf,cidade,bairro,endereco,sexo,idade
+1,João Silva,123.456.789-00,São Paulo,"Centro, Rua A", 123,M,28
+2,Maria Oliveira,987.654.321-00,Rio de Janeiro,"Copacabana,Avenida B", 456,F,34
+3,Pedro Santos,456.789.123-00,Belo Horizonte,"Savassi,Rua C, 789",M,45
+4,Ana Costa,321.654.987-00,Curitiba,Batel,"Avenida D, 1011",F,29
+5,Lucas Pereira,654.321.987-00,Porto Alegre,"Moinhos de Vento,Rua E", 1213,M,37
+6,Carla Mendes,789.123.456-00,Recife,Boa Viagem,"Avenida F, 1415",F,41
+7,Felipe Rocha,234.567.891-00,Salvador,Barra,"Rua G, 1617",M,32
