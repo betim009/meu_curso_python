@@ -1,0 +1,12 @@
+id,paciente,cidade,zona,bairro,sintoma
+1,Ana Silva,São Paulo,Zona Sul,Jardins,"febre, tosse seca, cansaço"
+2,Carlos Oliveira,São Paulo,Zona Oeste,Pinheiros,"dor de cabeça, fadiga"
+3,Mariana Santos,São Paulo,Zona Central,Liberdade,"dor de garganta, coriza"
+4,Rodrigo Ferreira,São Paulo,Zona Leste,Mooca,"diarreia, náuseas"
+5,Fernanda Lima,São Paulo,Zona Norte,Santana,"tontura, visão turva"
+6,Diego Costa,São Paulo,Zona Sul,Moema,"dor muscular, congestão nasal"
+7,Juliana Almeida,São Paulo,Zona Oeste,Vila Madalena,"insônia, ansiedade"
+8,Luciana Gomes,São Paulo,Zona Central,Bela Vista,"pressão alta, taquicardia"
+9,Gustavo Rocha,São Paulo,Zona Leste,Tatuapé,"falta de ar, chiado no peito"
+10,Rafael Mendes,São Paulo,Zona Norte,Casa Verde,"vômitos, dor abdominal"
+11,Ana Silva,São Paulo,Zona Sul,Jardins,"febre"
