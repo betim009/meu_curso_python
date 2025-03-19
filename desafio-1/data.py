@@ -11,6 +11,12 @@ usuarios = [
         "nome": "Marcos Antônio Fernandes",
         "telefone":  "11 99665566"   
     },
+    {
+        "id": 3,
+        "status": "ativo",
+        "nome": "João Paulo Macedo",
+        "telefone":  "11 91123456"   
+    },
 ]
 
 chamados = [
@@ -25,6 +31,13 @@ chamados = [
         "id": 2,
         "titulo": "Não consigo emitir nota",
         "detalhes": "O sistema de vocês é uma porcaria.........",
+        "id_usuario": 1,
+        "status": "pendente"
+    },
+    {
+        "id": 3,
+        "titulo": "Não consigo emitir nota",
+        "detalhes": "Vocês não me ajudam.........",
         "id_usuario": 1,
         "status": "pendente"
     }
