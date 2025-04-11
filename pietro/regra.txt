@@ -1,4 +1,0 @@
-Se o personagem possui o lvl maior que o outro,
-o dano é igual a 4.
-
-Se não o dano é igual a 3. 
