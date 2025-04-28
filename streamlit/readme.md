@@ -8,6 +8,19 @@
     streamlit run app.py
 
 
+## Crie um arquivo chamado requirements.txt
+        streamlit
+
+        plotly
+
+        pandas
+
+        numpy
+
+        matplotlib 
+
+
+
 # Elementos Visuais do Streamlit
 
 ## Textos

@@ -1,0 +1,10 @@
+id_paciente,nome,data_nascimento,sexo,cidade,telefone
+101,Ana Paula Mendes,1985-05-10,F,Ibatiba,(28) 99999-1111
+102,Caio Roberto Souza,2015-07-22,M,Iúna,(28) 98888-2222
+103,Marcos Vinícius,1990-11-30,M,Brejetuba,(28) 97777-3333
+104,Juliana Ramos,1998-02-14,F,Ibatiba,(28) 96666-4444
+105,Paulo Sérgio,1975-08-19,M,Irupi,(28) 95555-5555
+106,Lívia Martins,2016-03-25,F,Iúna,(28) 94444-6666
+107,Roberta Dias,1960-12-01,F,Brejetuba,(28) 93333-7777
+108,Felipe Santos,1982-06-18,M,Ibatiba,(28) 92222-8888
+109,Aline Costa,1993-09-09,F,Irupi,(28) 91111-9999

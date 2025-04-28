@@ -1,0 +1,11 @@
+id_consulta,data,especialidade,id_paciente,medico,status
+1,2025-03-01,Clínico Geral,101,Dr. João Silva,Concluída
+2,2025-03-02,Pediatria,102,Dra. Maria Lima,Cancelada
+3,2025-03-02,Ortopedia,103,Dr. Carlos Souza,Concluída
+4,2025-03-03,Ginecologia,104,Dra. Ana Clara,Agendada
+5,2025-03-03,Clínico Geral,105,Dr. João Silva,Concluída
+6,2025-03-04,Pediatria,106,Dra. Maria Lima,Concluída
+7,2025-03-05,Cardiologia,107,Dr. Bruno Rocha,Agendada
+8,2025-03-05,Ortopedia,101,Dr. Carlos Souza,Concluída
+9,2025-03-06,Clínico Geral,108,Dr. João Silva,Cancelada
+10,2025-03-07,Ginecologia,109,Dra. Ana Clara,Concluída
