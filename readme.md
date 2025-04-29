@@ -7,4 +7,4 @@
 - [🔀 2 - Estrutura de Condições](https://github.com/betim009/meu_curso_python/tree/main/conteudo/2-condicoes)
 - [🔁 3 - Estrutura de Repetições](https://github.com/betim009/meu_curso_python/tree/main/conteudo/3-repeticoes)
 - [🚨 4 - Funções](https://github.com/betim009/meu_curso_python/tree/main/conteudo/4-funcoes)
-- [🚀 - Requisições para API's](https://github.com/betim009/meu_curso_python/tree/main/conteudo/5-requests)
+- [🚀 5 - Requisições para API's](https://github.com/betim009/meu_curso_python/tree/main/conteudo/5-requests)
