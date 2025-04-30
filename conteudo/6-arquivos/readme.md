@@ -5,7 +5,20 @@ Neste material, vamos aprender a **ler** e **escrever** arquivos `.txt` em Pytho
 
 ---
 
-## 📄 O conteúdo do nosso arquivo frutas.txt
+## 🧠 Por que aprender isso?
+
+Em muitos programas, é necessário **salvar dados** em arquivos ou **ler informações** previamente registradas. Esses dados podem ser de:
+
+- Cadastros de usuários
+- Resultados de vendas
+- Logs de sistema
+- Informações de produtos
+
+Saber manipular arquivos é um passo essencial para tornar seu programa **útil no mundo real**.
+
+---
+
+## 📄 O conteúdo do nosso arquivo `frutas.txt`
 
 ```txt
 Morango,2.19
@@ -15,23 +28,33 @@ Manga,3.5
 Goiaba,2.09
 ```
 
-Cada linha contém uma fruta e seu preço separados por vírgula.
+Cada linha contém:
+- O nome da fruta
+- Seu preço
+
+Eles estão separados por vírgula (`,`), o que é comum em arquivos `.csv`.
 
 ---
 
 ## 📥 Parte 1 – Lendo o arquivo linha por linha
 
-Aqui vamos **abrir** o arquivo e exibir cada linha removendo espaços e quebras de linha.
+Queremos **abrir o arquivo** e exibir cada linha, removendo os espaços extras e quebras de linha.
 
 ```python
 # Nome do arquivo
-arquivo = './6-arquivos/frutas.txt'  # Caminho para o arquivo frutas.txt dentro do diretório '6-arquivos'
+arquivo = './6-arquivos/frutas.txt'
 
 # Abre o arquivo para leitura
-with open(arquivo, 'r') as file:  # Modo leitura
-    for linha in file:  # Percorre cada linha
+with open(arquivo, 'r') as file:
+    for linha in file:
         print(linha.strip())  # Remove espaços e quebras de linha
 ```
+
+### ✅ O que esse código faz?
+
+- `open(arquivo, 'r')`: abre o arquivo no modo leitura
+- `for linha in file`: percorre cada linha do arquivo
+- `linha.strip()`: remove quebras de linha e espaços desnecessários
 
 **Saída esperada:**
 ```
@@ -46,18 +69,20 @@ Goiaba,2.09
 
 ## 📤 Parte 2 – Processando os dados do arquivo
 
-Vamos ler, separar os valores e transformar em dados utilizáveis.
+Agora vamos **separar as informações**, tratando o texto para extrair dados úteis.
+
+---
 
 ### 🔹 Passo 1: Dividindo por vírgula
 
 ```python
-arquivo = "./6-arquivos/frutas.txt"
-
-# Lê o arquivo e mostra os dados divididos
 with open(arquivo, "r") as file:
     for linha in file:
-        print(linha.strip().split(","))  # Exibe como lista
+        print(linha.strip().split(","))
 ```
+
+- `.split(",")`: separa a linha usando a vírgula como divisor
+- Resultado: uma **lista com duas partes**: nome da fruta e preço
 
 **Saída esperada:**
 ```
@@ -70,7 +95,7 @@ with open(arquivo, "r") as file:
 
 ---
 
-### 🔹 Passo 2: Exibindo fruta e preço separadamente
+### 🔹 Passo 2: Exibindo nome e preço separadamente
 
 ```python
 with open(arquivo, "r") as file:
@@ -78,6 +103,8 @@ with open(arquivo, "r") as file:
         fruta, preco = linha.strip().split(",")
         print(fruta, preco)
 ```
+
+Aqui usamos **duas variáveis** para armazenar cada parte da linha.
 
 **Saída esperada:**
 ```
@@ -90,7 +117,9 @@ Goiaba 2.09
 
 ---
 
-### 🔹 Passo 3: Salvando os dados em uma lista de dicionários
+### 🔹 Passo 3: Salvando como lista de dicionários
+
+Agora vamos transformar os dados em **estrutura organizada**:
 
 ```python
 frutas_precos = []
@@ -102,6 +131,14 @@ with open(arquivo, "r") as file:
 
 print(frutas_precos)
 ```
+
+### ✅ O que acontece aqui?
+
+- Criamos uma **lista vazia**
+- Para cada linha do arquivo:
+  - Separamos `fruta` e `preço`
+  - Convertendo o preço para `float`
+  - Adicionamos à lista um **dicionário com os dados**
 
 **Saída esperada:**
 
@@ -119,7 +156,7 @@ print(frutas_precos)
 
 ## 📝 Parte 3 – Escrevendo em um novo arquivo
 
-Agora vamos criar um novo arquivo e escrever os dados nele.
+Agora que temos a lista de frutas com preços, vamos **salvar isso em outro arquivo**.
 
 ```python
 # Caminho do novo arquivo
@@ -137,23 +174,27 @@ frutas_precos = [
 # Abre o arquivo para escrita
 with open(arquivo, "w") as file:
     for item in frutas_precos:
-        file.write(f"{item['fruta']},{item['preco']}
-")
+        file.write(f"{item['fruta']},{item['preco']}")
 ```
 
-> ⚠️ **Atenção**: esse código irá **sobrescrever** o conteúdo do arquivo `frutas_vazio.txt`. Mantenha ele **vazio** antes de testar.
+### ⚠️ Cuidado!
+
+- O modo `"w"` **apaga o conteúdo** anterior do arquivo.
+- Use com cuidado quando for sobrescrever.
 
 ---
 
 ## ✅ Conclusão
 
-Com esses passos, você aprendeu a:
+Neste material, você aprendeu:
 
-- Ler arquivos `.txt` linha por linha.
-- Separar valores e convertê-los.
-- Armazenar os dados em uma estrutura organizada.
-- Escrever arquivos novos a partir de listas.
+- Como **ler um arquivo** linha por linha em Python
+- Como **tratar dados de texto** e extrair informações
+- Como **organizar os dados em dicionários**
+- Como **salvar esses dados** em um novo arquivo
 
-Esse conhecimento é essencial para trabalhar com **dados externos**, como planilhas, logs ou relatórios em Python.
+Essas habilidades são úteis em muitos contextos: análise de dados, relatórios, automações, e sistemas que lidam com cadastros ou arquivos `.csv`.
 
 ---
+
+Pronto para o próximo nível? Agora você pode integrar esses dados com **interfaces gráficas**, **bancos de dados** ou até **web APIs**!
