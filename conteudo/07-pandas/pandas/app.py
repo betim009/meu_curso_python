@@ -4,10 +4,6 @@ import pandas as pd
 file = pd.read_csv('produtos_estoque.csv')
 file_pacientes = pd.read_csv('pacientes.csv')
 
-
-plot = file.plot()
-plot
-
 # Destruturando por colunas diretamente
 cols_produto_preco = file[['Produto', 'Preco']]
 cols_produto_preco_estoque = file[['Produto', 'Preco', 'Estoque']]
