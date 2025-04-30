@@ -14,5 +14,5 @@ print(df)  # Mostra o DataFrame no console
 
 # Salva o DataFrame em um arquivo CSV
 df.to_csv(
-    "./7-pandas/frutas.csv", index=False
+    "./7-pandas/new_frutas.csv", index=False
 )  # Salva o DataFrame como 'frutas.csv', sem incluir o índice
