@@ -10,4 +10,4 @@
 - [🚀 5 - Requisições para API's](https://github.com/betim009/meu_curso_python/tree/main/conteudo/05-requests)
 - [📁 6 - Arquivos](https://github.com/betim009/meu_curso_python/tree/main/conteudo/06-arquivos)
 - [🅿️ 7 - Pandas para arquivos](https://github.com/betim009/meu_curso_python/tree/main/conteudo/07-pandas)
-- [📶 7.2 - Gráficos/plots](https://github.com/betim009/meu_curso_python/tree/main/conteudo/7-pandas)
+- [📶 7.2 - Gráficos/plots](https://github.com/betim009/meu_curso_python/tree/main/conteudo/07-plots)
