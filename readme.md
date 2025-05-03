@@ -37,7 +37,11 @@ Este repositório é um curso completo e gratuito com:
 | └─ [7.4 - Gráficos com Pandas](https://github.com/betim009/meu_curso_python/blob/main/conteudo/07-pandas/readme_4.md) |
 | [📶 7.2 - Gráficos/plots com matplotlib e plotly](https://github.com/betim009/meu_curso_python/tree/main/conteudo/07-plots) | Gráficos simples e interativos com `matplotlib` e `plotly`. |
 | [📶 8 - MySQL com Python](https://github.com/betim009/meu_curso_python/tree/main/conteudo/08-MySQL) | Conexão com bancos de dados e consultas SQL com `mysql.connector`. |
-
+| [🅿️ 9 - Flask](https://github.com/betim009/meu_curso_python/tree/main/conteudo/09-flask) | Leitura e manipulação de dados com `pandas`. |
+| └─ [9.1 - REST API](https://github.com/betim009/meu_curso_python/blob/main/conteudo/09-flask/readme_1.md) |
+| └─ [9.2 - REST API - MYSQL](https://github.com/betim009/meu_curso_python/blob/main/conteudo/09-flask/readme_2.md) |
+| └─ [9.3 - Blueprints](https://github.com/betim009/meu_curso_python/blob/main/conteudo/09-flask/readme_3.md) |
+| └─ [9.4 - CSS / Jinja / Gráficos](https://github.com/betim009/meu_curso_python/blob/main/conteudo/09-flask/readme_4.md) |
 ---
 
 ## 🚀 Objetivo
