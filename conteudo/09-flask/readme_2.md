@@ -220,4 +220,4 @@ Você aprendeu a:
 
 Esse projeto é base para qualquer sistema de gestão que use Python + MySQL!
 
-[Projeto Completo Acesse: ](https://github.com/betim009/meu_curso_python/tree/main/projetos/03_flaskAPI)
+[Acesse o projeto completo clicando aqui](https://github.com/betim009/meu_curso_python/tree/main/projetos/03_flaskAPI)
