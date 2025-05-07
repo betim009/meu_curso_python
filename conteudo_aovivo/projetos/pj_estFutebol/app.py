@@ -1,7 +1,7 @@
-from scripts import todos_gols, melhor_media_gols
+from scripts import todos_gols, melhor_media_gols # resgatando funções do arquivo scripts.py
 
-# interface
-while True:
+# cria a interface
+while True: # mantem acontecendo a interface
     print(
         """Opções:
     [1] - Todos gols dos jogadores    
@@ -18,7 +18,7 @@ while True:
         print("\n")  # quebra de linha no terminal
 
     if entrada == "2":
-        pass
+        pass  # ignorando 
 
     if entrada == "6":
-        break
+        break # encerra a interface
