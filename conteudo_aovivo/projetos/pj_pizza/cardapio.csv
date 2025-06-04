@@ -1,0 +1,16 @@
+ID,sabor,tamanho,preco
+1,palmito,G,30
+2,palmito,M,20
+3,palmito,P,10
+4,frango_catupiry,G,35
+5,frango_catupiry,M,25
+6,frango_catupiry,P,15
+7,calabresa,G,25
+8,calabresa,M,15
+9,calabresa,P,5
+10,a_moda,G,40
+11,a_moda,M,30
+12,a_moda,P,20
+10,palmito_especial,G,50
+11,palmito_especial,M,40
+12,palmito_especial,P,30

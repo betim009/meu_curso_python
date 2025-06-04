@@ -1,25 +1,29 @@
-from pizzas import pizzas
+import pandas as pd
 
-# Funções
-def get_pizza_id(id):
-    for pizza in pizzas:
-        if pizza['id'] == id:
-            return pizza
-    
+def exibir_cardapio():
+    data_frame = pd.read_csv("cardapio.csv")
+    print(data_frame)
+
+def procurar_pizza(nome):
+    data_frame = pd.read_csv("cardapio.csv")
+    filtro = data_frame[data_frame["sabor"].str.contains(nome, case=False, na=False)]
+    print(filtro)
+       
+def retornar_pizzas(nome):
+    retornar = []
+    for pizza in cardapio:
+        if nome == pizza['sabor']:
+            retornar.append(pizza)
+    return retornar
+   ### return "Não existe essa pizza!" 
+
+def selecionar_tamanho(nome,tamanho):
+    for pizza in cardapio:
+        if nome == pizza['sabor']:
+            if tamanho == pizza['tamanho']:
+                return pizza
     return "Não existe essa pizza!" 
-
-# Resgatar todas as pizzas
-def get_all():
-    pass
-
-# Resgatar pizza por nome
-def get_pizza_nome(nome):
-    pass
-
-# Resgar pizzas por tamanho
-def get_pizzas_tamanho(tamanho):
-    pass
-
-# Criar uma nova pizza
-def create_pizza(pizza):
-    pass
+    
+def exibir_selecao(nome):
+    for selecao in retornar_pizzas(nome):
+        print(f"sabor: {selecao['sabor']} ,tamanho: {selecao['tamanho']} , preco: {selecao['preco']}")
