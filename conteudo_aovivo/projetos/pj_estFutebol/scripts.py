@@ -1,8 +1,19 @@
 from jogadores import jogadores  # resgatando os dados de jogadores.py
 
 def todos_gols():
+    # PARA CADA JOGADOR
     for jogador in jogadores:  # laço de repetição
-        print(jogador["nome"], len(jogador["gols"]))
+        nome = jogador["nome"]
+        partidas = jogador["partidas"]
+        quantidade_gols = 0
+
+        # Paraca da partida desse jogodor
+        for partida in partidas:
+            # SOMANDO A QUANTIDADE DE GOLS
+            quantidade_gols += partida["gols"]
+        
+        # EXIBINDO
+        print(f"{nome} fez: {quantidade_gols} gols")
 
 
 def criar_media_gols():

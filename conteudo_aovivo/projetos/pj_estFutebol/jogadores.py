@@ -22,7 +22,7 @@ jogadores = [
                 "assistencia": 0
             },
             {
-                "id": 2, 
+                "id": 3, 
                 "time": "Barcelona", 
                 "minuto": 64, # Quantidade de minutos que o jogador jogou na partida 
                 "data": "10/01/2025",

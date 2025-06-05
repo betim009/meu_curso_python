@@ -13,8 +13,8 @@ while True: # mantem acontecendo a interface
     entrada = input("Digite uma opção: ")
 
     if entrada == "1":
-
         print("\n")  # quebra de linha no terminal
+        print("Todos os gols da base de dados:")
         todos_gols()
         print("\n")  # quebra de linha no terminal
 
