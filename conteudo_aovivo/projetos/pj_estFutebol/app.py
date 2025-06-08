@@ -23,7 +23,5 @@ while True: # mantem acontecendo a interface
         melhor_media = max(media_gols, key=lambda jogador: jogador["media"])
         print(melhor_media)
 
-
-
     if entrada == "6":
         break # encerra a interface
