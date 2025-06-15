@@ -3,6 +3,8 @@ import pandas as pd
 from tkinter import ttk
 
 DF_PATH = "pagamentos_empresas.csv"
+BTN_COLOR = "#008B8B"
+BTN_HOVER = "#00CED1"
 
 
 def load_data(path: str) -> pd.DataFrame:
@@ -58,7 +60,13 @@ def create_add_form(tab: ctk.CTkFrame, columns: list[str], callback):
         entry.grid(row=i, column=1, sticky="ew", padx=5, pady=2)
         entries[col] = entry
     tab.columnconfigure(1, weight=1)
-    btn = ctk.CTkButton(tab, text="Adicionar", command=lambda: callback(entries))
+    btn = ctk.CTkButton(
+        tab,
+        text="Adicionar",
+        command=lambda: callback(entries),
+        fg_color=BTN_COLOR,
+        hover_color=BTN_HOVER,
+    )
     btn.grid(row=len(columns), column=0, columnspan=2, pady=10)
     return entries
 
@@ -67,7 +75,8 @@ def main() -> None:
     data = load_data(DF_PATH)
     columns = list(data.columns)
 
-    ctk.set_appearance_mode("system")
+    ctk.set_appearance_mode("dark")
+    ctk.set_default_color_theme("dark-blue")
     app = ctk.CTk()
     app.title("Pagamentos de Empresas")
     app.geometry("1024x600")
@@ -86,7 +95,9 @@ def main() -> None:
     add_tab = tabview.add("Novo Pagamento")
 
     # ---- tabela ----
-    table_tab.rowconfigure(2, weight=1)
+    table_tab.rowconfigure(0, weight=1)
+    table_tab.rowconfigure(1, weight=8)
+    table_tab.rowconfigure(3, weight=1)
     table_tab.columnconfigure(0, weight=1)
 
     search_frame = ctk.CTkFrame(table_tab)
@@ -104,7 +115,14 @@ def main() -> None:
         populate_table(tree, filtered)
 
     entry.bind("<Return>", perform_search)
-    ctk.CTkButton(search_frame, text="Buscar", command=perform_search).grid(row=0, column=1)
+    search_btn = ctk.CTkButton(
+        search_frame,
+        text="Buscar",
+        command=perform_search,
+        fg_color=BTN_COLOR,
+        hover_color=BTN_HOVER,
+    )
+    search_btn.grid(row=0, column=1)
 
     action_frame = ctk.CTkFrame(table_tab)
     action_frame.grid(row=3, column=0, pady=(5, 0))
@@ -142,10 +160,28 @@ def main() -> None:
             save_data(data, DF_PATH)
             populate_table(tree, data)
             win.destroy()
-        ctk.CTkButton(win, text="Salvar", command=save_edit).grid(row=len(columns), column=0, columnspan=2, pady=10)
+        ctk.CTkButton(
+            win,
+            text="Salvar",
+            command=save_edit,
+            fg_color=BTN_COLOR,
+            hover_color=BTN_HOVER,
+        ).grid(row=len(columns), column=0, columnspan=2, pady=10)
 
-    ctk.CTkButton(action_frame, text="Excluir Selecionado", command=delete_selected).pack(side="left", padx=5)
-    ctk.CTkButton(action_frame, text="Editar Selecionado", command=open_edit).pack(side="left", padx=5)
+    ctk.CTkButton(
+        action_frame,
+        text="Excluir Selecionado",
+        command=delete_selected,
+        fg_color=BTN_COLOR,
+        hover_color=BTN_HOVER,
+    ).pack(side="left", padx=5)
+    ctk.CTkButton(
+        action_frame,
+        text="Editar Selecionado",
+        command=open_edit,
+        fg_color=BTN_COLOR,
+        hover_color=BTN_HOVER,
+    ).pack(side="left", padx=5)
 
     # ---- adicionar ----
     add_tab.columnconfigure(1, weight=1)
