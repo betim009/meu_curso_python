@@ -1,0 +1,3 @@
+# Exemplo de novo registro para cadastro
+Data de vencimento,Número,Nome,Valor,Saldo,Situação,Liquidação,Data,Tipo,Descrição,Descrição - Portador,Nome - Vendedor,Data de vencimento original
+12/2024,1001,Empresa X,"3.200,00","3.200,00",Em aberto,00/00/0000,10/12/2024,Boleto Bancário,Serviço,Itaú,Carlos,10/12/2024
