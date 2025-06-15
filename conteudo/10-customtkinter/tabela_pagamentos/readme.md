@@ -1,6 +1,6 @@
 # Visualizador de Pagamentos com CustomTkinter
 
-Este projeto demonstra como exibir um arquivo CSV em uma interface gráfica utilizando **CustomTkinter** e **pandas**. O exemplo lê o arquivo `pagamentos_empresas.csv` e apresenta os dados em uma tabela com rolagem.
+Este projeto demonstra como exibir e gerenciar um arquivo CSV em uma interface gráfica utilizando **CustomTkinter** e **pandas**. Agora é possível visualizar, adicionar, editar e remover pagamentos de forma simples.
 
 ## Estrutura
 
@@ -42,10 +42,11 @@ conteudo/10-customtkinter/
    python app.py
    ```
 
-Uma janela será aberta exibindo os dados do arquivo CSV em formato de tabela. Utilize as barras de rolagem para navegar pelas informações.
+Uma janela será aberta com duas abas: a primeira exibe a tabela de pagamentos e a segunda permite inserir novos registros. Selecione uma linha da tabela para editá-la ou excluí-la.
 
 ## Explicação rápida
 
 - O arquivo CSV é carregado com `pandas.read_csv`, preservando os valores como texto para manter a formatação.
-- `ttk.Treeview` é usado para criar a tabela, e o `customtkinter` fornece o estilo moderno da janela.
-- O aplicativo é simples, servindo como base para projetos que precisem listar dados tabulares de maneira amigável.
+- `CTkTabview` organiza a interface em abas de "Tabela" e "Novo Pagamento".
+- Em cada linha da tabela há opções para editar ou remover o registro selecionado.
+- A janela principal utiliza um grid que mantém a área da tabela com no máximo **60%** da largura disponível.
