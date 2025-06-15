@@ -9,11 +9,13 @@ conteudo/10-customtkinter/
 └─ tabela_pagamentos/
    ├─ app.py
    ├─ pagamentos_empresas.csv
-   └─ readme.md
+   ├─ readme.md
+   └─ arquitetura.md
 ```
 
 - **app.py** &ndash; código responsável por criar a janela e preencher a tabela.
 - **pagamentos_empresas.csv** &ndash; arquivo de dados utilizado no exemplo.
+- **arquitetura.md** &ndash; documentação explicando o funcionamento do projeto.
 
 ## Como executar
 
@@ -49,4 +51,4 @@ Uma janela será aberta com duas abas: a primeira exibe a tabela de pagamentos e
 - O arquivo CSV é carregado com `pandas.read_csv`, preservando os valores como texto para manter a formatação.
 - `CTkTabview` organiza a interface em abas de "Tabela" e "Novo Pagamento".
 - Em cada linha da tabela há opções para editar ou remover o registro selecionado.
-- A janela principal utiliza um grid que mantém a área da tabela com no máximo **60%** da largura disponível.
+- A janela principal utiliza um grid para que a tabela ocupe cerca de **80%** da altura da janela.
