@@ -1,0 +1,28 @@
+# Ambiente virtual Python
+venv/
+env/
+ENV/
+.venv/
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos do MySQL Connector (se gerados)
+*.egg-info/
+
+# Configurações de IDEs
+.vscode/
+.idea/
+*.swp
+
+# Arquivos de banco de dados (se exportar algum .sql grande, evite versionar)
+*.sql
+
+# Variáveis de ambiente e senhas (se criar futuramente)
+.env
+
+# Arquivos de log
+*.log
