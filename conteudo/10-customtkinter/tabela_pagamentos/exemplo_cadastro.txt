@@ -1,0 +1,2 @@
+Data de vencimento,Número,Nome,Valor,Saldo,Situação,Liquidação,Data,Tipo,Descrição,Descrição - Portador,Nome - Vendedor,Data de vencimento original
+12/2024,1234,Empresa Teste,"1.000,00","1.000,00",Em aberto,00/00/0000,15/12/2024,Boleto Bancário,Serviço,Meu Banco,João Vendedor,15/12/2024

@@ -14,6 +14,7 @@ conteudo/10-customtkinter/
 
 - **app.py** &ndash; código responsável por criar a janela e preencher a tabela.
 - **pagamentos_empresas.csv** &ndash; arquivo de dados utilizado no exemplo.
+- **exemplo_cadastro.txt** &ndash; uma linha de exemplo para novos registros.
 
 ## Como executar
 
@@ -50,3 +51,4 @@ Uma janela será aberta com duas abas: a primeira exibe a tabela de pagamentos e
 - `CTkTabview` organiza a interface em abas de "Tabela" e "Novo Pagamento".
 - Em cada linha da tabela há opções para editar ou remover o registro selecionado.
 - A janela principal utiliza um grid que mantém a área da tabela com no máximo **60%** da largura disponível.
+- Caso haja dúvidas sobre o formato dos campos, consulte `exemplo_cadastro.txt`.
