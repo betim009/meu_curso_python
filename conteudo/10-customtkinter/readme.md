@@ -3,6 +3,7 @@
 O **CustomTkinter** é uma biblioteca que permite criar interfaces gráficas modernas utilizando a base do Tkinter.
 Este material mostra um exemplo simples de como instalar e usar a biblioteca.
 
+
 ## Preparando o Ambiente
 
 Siga os passos abaixo para criar e ativar um **ambiente virtual** antes de instalar o CustomTkinter:
@@ -28,6 +29,13 @@ Siga os passos abaixo para criar e ativar um **ambiente virtual** antes de insta
    pip install customtkinter
    ```
 5. Para sair do ambiente, use `deactivate` (opcional).
+
+## Instalação
+
+```bash
+pip install customtkinter
+```
+
 
 ## Exemplo básico
 
