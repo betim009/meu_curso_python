@@ -153,7 +153,8 @@ def main() -> None:
     def add_payment(entries):
         nonlocal data
         row = {col: entries[col].get() for col in columns}
-        data = data.append(row, ignore_index=True)
+        new_row = pd.DataFrame([row])
+        data = pd.concat([data, new_row], ignore_index=True)
         save_data(data, DF_PATH)
         populate_table(tree, data)
         for e in entries.values():
