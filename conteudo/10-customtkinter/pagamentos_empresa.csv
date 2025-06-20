@@ -1,0 +1,51 @@
+empresa,data_pagamento,valor_pago,categoria_pagamento,tipo_pagamento
+Alfa Informática,2024-05-31,1152.4,Cartão,Parcelado
+Delta Manutenção,2024-01-07,2062.9,Pix,Parcelado
+Alfa Informática,2025-03-01,2305.91,Cartão,À vista
+Beta Tecnologia,2024-07-07,690.37,Cartão,Parcelado
+Gama Serviços,2024-12-09,315.42,Cartão,À vista
+Alfa Informática,2025-06-05,1659.71,Cartão,Parcelado
+Alfa Informática,2024-02-05,2929.87,Pix,À vista
+Delta Manutenção,2024-07-10,2486.0,Pix,Parcelado
+Gama Serviços,2024-11-07,1767.54,Pix,À vista
+Alfa Informática,2025-05-04,958.72,Pix,À vista
+Delta Manutenção,2024-12-10,2159.13,Dinheiro,À vista
+Delta Manutenção,2024-01-11,1275.04,Dinheiro,À vista
+Alfa Informática,2025-01-29,179.06,Cartão,À vista
+Beta Tecnologia,2024-03-14,2042.82,Dinheiro,À vista
+Delta Manutenção,2025-05-10,1568.22,Dinheiro,À vista
+Gama Serviços,2024-11-11,1688.12,Cartão,À vista
+Gama Serviços,2025-03-06,2928.11,Cartão,Parcelado
+Gama Serviços,2024-07-08,2448.47,Dinheiro,À vista
+Beta Tecnologia,2025-01-26,1475.58,Cartão,Parcelado
+Alfa Informática,2025-03-19,758.52,Cartão,Parcelado
+Alfa Informática,2024-08-22,2788.91,Dinheiro,Parcelado
+Gama Serviços,2024-11-20,870.47,Dinheiro,Parcelado
+Alfa Informática,2025-05-23,2154.65,Cartão,À vista
+Gama Serviços,2024-04-03,346.67,Cartão,Parcelado
+Delta Manutenção,2024-11-29,2460.95,Dinheiro,Parcelado
+Delta Manutenção,2024-07-23,904.69,Pix,Parcelado
+Gama Serviços,2024-04-14,2384.61,Dinheiro,À vista
+Beta Tecnologia,2025-04-01,2203.51,Pix,À vista
+Delta Manutenção,2025-04-08,612.6,Pix,À vista
+Alfa Informática,2024-11-05,564.11,Dinheiro,Parcelado
+Delta Manutenção,2025-02-20,1519.94,Pix,Parcelado
+Delta Manutenção,2024-03-24,366.93,Pix,À vista
+Delta Manutenção,2024-10-25,1492.64,Cartão,Parcelado
+Alfa Informática,2025-06-05,2982.43,Dinheiro,À vista
+Delta Manutenção,2024-10-09,2875.69,Cartão,Parcelado
+Gama Serviços,2024-02-12,1963.06,Pix,À vista
+Alfa Informática,2025-05-27,739.57,Dinheiro,À vista
+Delta Manutenção,2024-06-12,246.04,Pix,À vista
+Delta Manutenção,2024-05-26,2523.63,Cartão,À vista
+Gama Serviços,2025-03-04,604.89,Dinheiro,À vista
+Gama Serviços,2025-04-22,492.96,Cartão,Parcelado
+Alfa Informática,2025-06-14,450.71,Pix,À vista
+Beta Tecnologia,2024-03-09,2743.04,Pix,Parcelado
+Gama Serviços,2024-08-13,2237.8,Dinheiro,À vista
+Alfa Informática,2024-04-29,2550.2,Dinheiro,Parcelado
+Gama Serviços,2024-09-26,2679.75,Cartão,Parcelado
+Gama Serviços,2024-04-01,1876.27,Pix,Parcelado
+Beta Tecnologia,2024-07-16,2536.29,Pix,Parcelado
+Beta Tecnologia,2025-06-12,183.33,Dinheiro,À vista
+Alfa Informática,2024-04-13,1755.74,Pix,Parcelado
