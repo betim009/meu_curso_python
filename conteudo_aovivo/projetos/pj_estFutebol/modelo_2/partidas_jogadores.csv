@@ -1,0 +1,20 @@
+id_jogador,nome_jogador,id_partida,time_atual,time_contra,minuto,data,campeonato,gols,assistencia
+10,Dembelé,1,PSG,Lyon,93,01/01/2025,Nacional,2,1
+11,Mbappé,1,PSG,Lyon,90,01/01/2025,Nacional,1,0
+10,Dembelé,2,PSG,Nice,64,04/01/2025,Nacional,0,0
+11,Mbappé,2,PSG,Nice,80,04/01/2025,Nacional,2,1
+10,Dembelé,3,PSG,Barcelona,64,10/01/2025,Liga,3,0
+11,Mbappé,3,PSG,Barcelona,90,10/01/2025,Liga,1,2
+2,Messi,4,Inter Miami,New York,75,11/03/2025,Nacional,0,1
+3,Suárez,4,Inter Miami,New York,80,11/03/2025,Nacional,1,0
+2,Messi,5,Inter Miami,LA Gato,64,14/01/2025,Nacional,2,0
+3,Suárez,5,Inter Miami,LA Gato,90,14/01/2025,Nacional,0,1
+20,De Jong,6,Barcelona,Real Madrid,90,20/02/2025,Liga,0,1
+21,Pedri,6,Barcelona,Real Madrid,85,20/02/2025,Liga,1,0
+20,De Jong,7,Barcelona,Valencia,90,25/02/2025,Liga,1,0
+21,Pedri,7,Barcelona,Valencia,80,25/02/2025,Liga,0,2
+30,Vinícius Jr,8,Real Madrid,Atlético Madrid,90,02/03/2025,Liga,2,1
+31,Bellingham,8,Real Madrid,Atlético Madrid,88,02/03/2025,Liga,1,0
+30,Vinícius Jr,9,Real Madrid,Sevilla,90,10/03/2025,Liga,0,0
+31,Bellingham,9,Real Madrid,Sevilla,90,10/03/2025,Liga,2,1
+10,Dembelé,98,PSG,Inter de Milão,90,01/05/2025,Champions,1,1

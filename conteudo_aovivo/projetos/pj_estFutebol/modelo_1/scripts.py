@@ -1,4 +1,4 @@
-from jogadores import jogadores  # resgatando os dados de jogadores.py
+from modelo_2.app import jogadores  # resgatando os dados de jogadores.py
 
 def todos_gols():
     # PARA CADA JOGADOR
