@@ -43,6 +43,8 @@ Este repositório é um curso completo e gratuito com:
 | └─ [9.3 - Blueprints](https://github.com/betim009/meu_curso_python/blob/main/conteudo/09-flask/readme_3.md) |
 | └─ [9.4 - CSS / Jinja / Gráficos](https://github.com/betim009/meu_curso_python/blob/main/conteudo/09-flask/readme_4.md) |
 | [🖼️ 10 - CustomTkinter](https://github.com/betim009/meu_curso_python/tree/main/conteudo/10-customtkinter) | Criando interfaces gráficas com `customtkinter`. |
+| [🕸️ 11 - Selenium](https://github.com/betim009/meu_curso_python/tree/main/conteudo/11-selenium) | Automação e webscraping com `selenium`. |
+| [📈 12 - Streamlit](https://github.com/betim009/meu_curso_python/tree/main/conteudo/12-streamlit) | Aplicações web interativas com `streamlit`. |
 ---
 
 ## 🚀 Objetivo
