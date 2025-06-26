@@ -48,6 +48,7 @@ A aplicação abrirá no navegador padrão exibindo o título, um campo para dig
 ## ✅ Conclusão
 
 Com poucas linhas de código é possível criar interfaces amigáveis usando o Streamlit. Explore componentes como _sliders_, _charts_ e _tables_ para enriquecer suas aplicações.
+<<<<<<< e9se05-codex/analisa-o-repositório
 
 ---
 
@@ -55,3 +56,5 @@ Com poucas linhas de código é possível criar interfaces amigáveis usando o S
 
 - [Template base](./template/readme.md): função para iniciar projetos rapidamente.
 - [Widgets](./widgets/readme.md): lista e exemplos dos principais componentes interativos.
+=======
+>>>>>>> main
