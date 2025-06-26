@@ -45,6 +45,11 @@ Este repositório é um curso completo e gratuito com:
 | [🖼️ 10 - CustomTkinter](https://github.com/betim009/meu_curso_python/tree/main/conteudo/10-customtkinter) | Criando interfaces gráficas com `customtkinter`. |
 | [🕸️ 11 - Selenium](https://github.com/betim009/meu_curso_python/tree/main/conteudo/11-selenium) | Automação e webscraping com `selenium`. |
 | [📈 12 - Streamlit](https://github.com/betim009/meu_curso_python/tree/main/conteudo/12-streamlit) | Aplicações web interativas com `streamlit`. |
+<<<<<<< e9se05-codex/analisa-o-repositório
+| └─ [12.1 - Template base](https://github.com/betim009/meu_curso_python/blob/main/conteudo/12-streamlit/template/readme.md) |
+| └─ [12.2 - Widgets](https://github.com/betim009/meu_curso_python/blob/main/conteudo/12-streamlit/widgets/readme.md) |
+=======
+>>>>>>> main
 ---
 
 ## 🚀 Objetivo
