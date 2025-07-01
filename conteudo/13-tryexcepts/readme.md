@@ -207,9 +207,6 @@ Ou ainda melhor: **trate erros específicos** sempre que possível.
 
 ---
 
-📁 Gerado como material didático para iniciantes  
-🗓️ Data: 01/07/2025
-
 ---
 
 ## 🔀 Múltiplos tratamentos de erro no mesmo `try`
