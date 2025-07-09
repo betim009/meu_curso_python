@@ -505,7 +505,10 @@ print(usuarios[1]["nome"])  # "Carlos"
 ### 14:
 
 ```python
-loja = {"Eletrônicos": ["Notebook", "Celular"], "Móveis": ["Mesa", "Cadeira"]}
+loja = {
+    "Eletrônicos": ["Notebook", "Celular"], 
+    "Móveis": ["Mesa", "Cadeira"]
+    }
 print(loja["Eletrônicos"])  # ['Notebook', 'Celular']
 ```
 
