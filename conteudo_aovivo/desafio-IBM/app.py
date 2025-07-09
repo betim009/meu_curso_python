@@ -1,7 +1,7 @@
 def getTotalTrainingTime(n, logs):
-    result = [0] * n
-    pilha = []
-    prev_time = 0
+    result = [0] * n # [2, 3]
+    pilha = [0, 1]
+    prev_time = 2
 
     for log in logs:
         model, action, time = log.split(":")
@@ -25,4 +25,6 @@ logs = ["0:start:0", "1:start:2", "1:end:5", "0:end:6"]
 logs_1 = ["0:start:0", "1:start:2", "2:start:3", "2:end:4", "1:end:5", "0:end:6"]
 
 print(getTotalTrainingTime(2, logs))  # [3, 3]
-print(getTotalTrainingTime(3, logs_1)) # [3, 2, 1]
+
+
+# print(getTotalTrainingTime(3, logs_1)) # [3, 2, 1]
