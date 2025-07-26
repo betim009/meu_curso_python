@@ -8,7 +8,6 @@ gold_bag = 50
 def shop():
     print("   --SHOP--\n")
     print(f"\n - ouro disponivel: {gold_bag}\n")
-    
     for i in range(len(item_list)):
         item = item_list[i]
         if item["type"] == "attack":
