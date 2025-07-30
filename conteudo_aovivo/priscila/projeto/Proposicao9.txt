@@ -1,0 +1,300 @@
+Câmara Municipal
+de Curitiba
+PROPOSIÇÃO 
+ 
+N° 005.00247.2021
+Os Vereadores Maria Leticia, Carol Dartora, Flavia Francischini, Marcos Vie
+Noemia Rocha, Professora Josete, Renato Freitas e Giórgia Prates - Mand
+ no uso de suas atribuições legais, submetem à apreciação da Câm
+Preta,
+Municipal de Curitiba a seguinte proposição:
+Projeto de Lei Ordinária
+EMENTA
+Dispõe sobre o compartilhamento 
+bicicletas em vias e logradour
+públicos no Município de Curitiba e
+outras providências.
+CAPÍTULO I
+DIRETRIZES DO SISTEMA DE BICICLETAS COMPARTILHADAS NO MUNICÍPI
+Art. 1º Esta Lei institui e disciplina o sistema de compartilhamento de bicicletas em via
+logradouros públicos, no município de Curitiba.
+Art. 2º Para fins desta Lei, serão adotados os seguintes conceitos: 
+I - sistema de compartilhamento de bicicletas: sistema sustentável de transporte de pequ
+percurso para deslocamento de pessoas, baseado em mecanismo de autoatendimento par
+disponibilização de bicicletas compartilhadas pelos usuários, com pontos de retirada e devolu
+distribuídos pela cidade; 
+II - OMTA:  Operadora de Modal de Transporte Ativo.
+III - usuário: Pessoa física que alugue bicicletas vinculadas ao sistema de compartilhamento
+bicicletas.
+IV - estações físicas: Pontos com estruturas físicas para comportar o estacionamento e liberação
+bicicletas.  
+V - estações virtuais: Áreas públicas devidamente sinalizadas, destinadas à utilização priva
+como estacionamento de bicicletas equipadas com sistema de autotravamento e suporte tecnoló
+para funcionamento e liberação, situadas em localidades sem estação física. 
+Art. 3° O uso de bicicletas, mecânicas ou de pedal assistido, deverá respeitar as regras de circul
+contidas nas Resoluções do Conselho Nacional de Trânsito - CONTRAN, bem como na Le
+9.503/97 ("Código de Trânsito Brasileiro"), na Lei 13.724/18 ("Programa Bicicleta Brasil
+demais legislações pertinentes. 
+Parágrafo único. Para a circulação, disponibilização e o uso deste modal de transporte, é
+responsabilidade das empresas operadoras e dos usuários atender às condições especificadas
+Resoluções do CONTRAN.
+Art. 4º O sistema de bicicletas compartilhadas deverá observar as seguintes diretrizes:
+I - integração à rede cicloviária do município e demais redes de transporte, 
+II - estímulo e desenvolvimento do sistema de transporte coletivo de passageiros;
+III - fomento à expansão da rede cicloviária, buscando uma operação equilibrada, de form
+atender a todas as regiões da cidade;
+IV - integração ao sistema de pagamento do transporte coletivo municipal (Cartão Transpor
+URBS), possibilitando a utilização de créditos do cartão para liberação automática de bicicletas;
+V - incentivo ao desenvolvimento de novas tecnologias que aperfeiçoem o uso dos recurso
+sistema;
+VI - estímulo à interoperabilidade dos serviços do sistema de bicicletas compartilhadas oferec
+no Município, a fim de não segmentar as diferentes redes de operação.
+VII - estimular a adoção de um meio de transporte eficiente, saudável e menos poluente.  
+Parágrafo único. A expansão do sistema poderá adequar a oferta do serviço de bicicl
+compartilhadas levando em consideração estudos de demanda para identificação de bairro
+regiões com maior potencial de viagens, que apresentem alta densidade residencial, de empreg
+serviços, bem como a existência de transporte público e ciclovias para integração modal.
+CAPÍTULO II
+DO SERVIÇO DE COMPARTILHAMENTO DE BICICLETAS 
+Art. 5º O serviço de compartilhamento de bicicletas, com ou sem estações físicas, por meio
+aluguel de bicicletas, disponibilizado nas vias e logradouros públicos, somente poderá ser pres
+por OMTA regularmente autorizadas perante a Administração Pública. 
+ 
+ 
+§ 1º A autorização de que trata o caput do art. 6º será precedida de processo de credenciamento.
+§2º - A exploração do serviço de compartilhamento de bicicletas será realizada por meio
+plataforma tecnológica gerida pela respectiva OMTA, devendo ser assegurados os princípios de
+discriminação de usuários e promoção do amplo acesso ao serviço, sob pena de descredenciame
+§ 3º Além da utilização de plataforma tecnológica, a OMTA poderá empregar outros meios 
+disponibilização do serviço aos usuários, desde que observada a parte final do § 1º. 
+Art. 6° As bicicletas compartilhadas com ou sem estação física, deverão ser estacionadas
+espaços públicos devidamente destinados para uso privativo de compartilhamento de bicicleta
+forma a garantir a ocupação ordenada do viário, sem prejuízo da livre circulação de pedes
+respeitadas as disposições dos artigos 96, II, 'a', 1, e 181, VIII, da Lei 9503/97, da legisla
+municipal e da legislação de trânsito, sob pena de punição da empresa operadora do serviço.
+§ 1° O Executivo deverá regulamentar a forma de cessão dos espaços destinados ao estacionam
+das bicicletas, sejam eles para estações físicas ou virtuais. 
+§ 2º Será permitido aos usuários a livre devolução das bicicletas fora dos pontos referidos no 
+sendo obrigação da empresa operadora do serviço o recolhimento das bicicletas que estiverem 
+da localização georreferenciada dos pontos de estacionamentos virtuais, no prazo de 2 horas
+forma que as bicicletas não prejudiquem o trânsito de pedestres.
+§ 3º As bicicletas de estações virtuais deverão estar equipadas com sistema GPS, de form
+permitir sua geolocalização. 
+§ 4º O usuário poderá ser responsabilizado civil e criminalmente por danos à propriedade púb
+ou de terceiros que culposamente der causa. 
+CAPÍTULO III
+DOS DEVERES E RESPONSABILIDADES DAS OMTAs
+Art. 7º As OMTAs ficam obrigadas a abrir e compartilhar seus dados com a Prefeitura, necessá
+à regulação de políticas públicas de mobilidade urbana e do sistema cicloviário, disponibilizand
+I - indicação da origem e destino da viagem;
+II - avaliação do serviço prestado;outros dados solicitados que tenham como objetivo a elabor
+de políticas públicas de mobilidade urbana e fomento à mobilidade ativa.
+Parágrafo único. A obrigação de abrir e compartilhar com a Prefeitura os dados se dará de m
+agregado e anonimizado de forma a assegurar e resguardar a privacidade e confidencialidade
+dados pessoais dos usuários, observando-se as prescrições da Lei n° 13.709/18.
+Art. 8º São deveres das OMTAs:
+I - organizar sua atividade e o serviço prestado;
+II - adotar plataforma tecnológica; 
+III - atender aos requisitos mínimos de segurança, conforto, higiene e qualidade definidos 
+Poder Executivo; 
+IV - disponibilizar bicicletas e demais equipamentos necessários para a prestação do serviço
+condições adequadas para uso, realizando a manutenção e reparos necessários; 
+V - implementar meios eletrônicos para pagamento; 
+VI - prover as bicicletas com os equipamentos obrigatórios, nos termos da legislação de trânsito
+VII - adotar mecanismo de avaliação da qualidade do serviço pelos usuários; 
+VIII - fornecer ao usuário, antes da disponibilização da bicicleta, informações sobre os parâme
+de preço a ser cobrado; 
+IX - assegurar a não discriminação dos usuários e promover amplo acesso ao serviço; 
+X - retirar as bicicletas e equipamentos danificados dos espaços públicos e proceder à de
+manutenção corretiva; 
+XI - para as bicicletas sem estação física, adotar medidas para garantir o cumprimento, p
+usuários, da devolução das bicicletas nos estacionamentos virtuais; 
+XII - responsabilizar-se pela realização dos serviços de compartilhamento de bicicletas, arca
+com todas as despesas decorrentes pela sua prestação, sem qualquer ônus para o Município, fica
+responsáveis por qualquer dano à Administração Pública e a terceiros, incluídos os usuários;
+XIII - responsabilizar-se por danos ou prejuízos às bicicletas que venham a ocorrer na prestaçã
+serviço, inclusive decorrentes de atos de roubo, furto ou vandalismo; 
+XIV - no caso de descredenciamento, abandono ou desistência na prestação do serviço
+compartilhamento de bicicletas, retirar todos os equipamentos do logradouro público e restaur
+logradouro público ao estado original, nos locais onde houver instalado estações.
+Art. 9º As bicicletas vinculadas ao serviço de compartilhamento devem ter identidade visual, c
+adesivos ou pinturas visíveis que facilitem a identificação pelos usuários do sistema e p
+fiscalização de trânsito, respeitada a legislação municipal e de trânsito.
+Art. 10 Pelo uso privativo do espaço público, as OMTAs deverão pagar preço público. O v
+devido a título de preço público pelas operadoras levará em consideração a área ocupada para
+instalação e o valor venal do m² da quadra adjacente à estação física ou virtual, conforme consta
+Planta Genérica de Valores em vigência, garantindo-se, o  incentivo à expansão do sistema 
+regiões não centrais.
+Art. 11 É de responsabilidade das OMTAs o fornecimento e a instalação de estações e a sinaliz
+das estações virtuais, assim como a execução de todos os serviços necessários, tais como p
+rampas, sinalização, instalações elétricas, dentre outros que porventura possam ser necessário
+perfeito atendimento à população e ao funcionamento do sistema.
+Parágrafo único. No caso de descredenciamento, abandono, desistência na prestação do serviç
+compartilhamento de bicicletas ou desativação de uma estação ou ponto de estação virtua
+OMTA deverá, às suas custas, retirar todos os equipamentos e restaurar o logradouro ao es
+original. A retirada destes equipamentos não dá às empresas operadoras qualquer direit
+ressarcimento ou indenização. 
+CAPÍTULO IV
+PUBLICIDADE 
+Art. 12 Fica permitido o patrocínio do sistema de bicicletas por empresas apoiadoras no mobil
+urbano das estações, bicicletas e demais equipamentos que compõem o sistema, bem com
+divulgação de mídia publicitária nos totens e/ou painéis digitais, de qualquer espécie acoplado
+estações para fins de custeio do mobiliário e disponibilização do serviço a valores democráticos
+usuários. 
+ 
+ 
+Parágrafo único. As estruturas previstas no caput ficam permitidas, desde que não prejudique
+identificação do usuário acerca do sistema e a fiscalização de trânsito, respeitando-se as regra
+legislação municipal e regulamentos atinentes à publicidade em mobiliário urbano.  
+Art. 13 As Operadoras de Modal de Transporte Ativo devidamente autorizadas poderão expl
+publicidade padronizada nas estações físicas e bicicletas.
+CAPÍTULO V
+LOCALIZAÇÃO DAS ESTAÇÕES
+ 
+Art. 14 A instalação de estações para retirada e devolução das bicicletas deverá ser previam
+analisada e aprovada pelo Poder Executivo.
+§ 1° As operadoras do serviço poderão apresentar estudos técnicos que demonstrem a necessid
+de implantação de estações, em vias e logradouros públicos do Município.
+§ 2° O Poder Executivo poderá solicitar a apresentação de estudos técnicos de que trata o § 1° d
+artigo. 
+§ 3º As estações deverão, sempre que possível, estar instaladas  em locais que possibilite
+utilização desses modais para uso complementar ao transporte coletivo.
+§ 4º As estações físicas ou virtuais deverão estar instaladas em locais que não atrapalhem
+deslocamento dos pedestres e cadeirantes. 
+CAPÍTULO VI
+DA FISCALIZAÇÃO
+Art. 15 A fiscalização das OMTAs caberá ao Poder Executivo, que ficará a cargo de: 
+I - credenciar as empresas prestadoras do serviço de compartilhamento de bicicletas; 
+II - acompanhar, monitorar, medir e avaliar a eficiência do serviço, mediante indicadores
+desempenho. 
+Parágrafo único. Todos os atos deverão se revestir de completa publicidade, de forma a gara
+transparência, previsibilidade, segurança jurídica, estabilidade e efetividade da política públic
+OMTAs.
+Art. 16 Caberá à Autoridade de Trânsito e seus agentes a fiscalização quanto ao atendimento
+normas de trânsito.
+Art. 17 Os condutores ou usuários de bicicletas, durante o uso indevido ou em desacordo co
+legislação pertinente, são integralmente responsáveis civil, penal, administrativamente ou 
+qualquer outra esfera, em função do uso dos equipamentos, assim como por qualquer dano m
+físico ou material causado. 
+CAPÍTULO VII
+DAS SANÇÕES 
+Art. 18 A infração a qualquer disposição desta Lei ou de regulamento sobre a prestação do ser
+das empresas operadoras enseja a aplicação das seguintes sanções: 
+I - notificação; 
+II - advertência;
+III - multa;
+IV - suspensão temporária das atividades;
+V - descredenciamento. 
+§ 1º A aplicação das sanções atenderá aos princípios da razoabilidade e da proporcionalida
+deverá respeitar o contraditório e o devido processo legal. 
+§ 2º O ato administrativo motivado poderá cumular as sanções previstas nos incisos deste artigo
+§ 3º O valor da multa será posteriormente regulamentado através de decreto.
+Art. 19 As penalidades previstas para o serviço de que trata esta Lei aplicam-se de forma plena
+relação àqueles que operarem clandestinamente, sem credenciamento ou autorização regular.
+CAPÍTULO VIII
+DISPOSIÇÕES FINAIS
+Art. 20 As operadoras que já operam em qualquer dessas modalidades passam a ser qualific
+como OMTA, devendo adequar sua documentação e autorização junto ao Poder Executivo
+prazo de 180 (cento e oitenta) dias, contados da regulamentação desta lei. 
+Art. 21 Esta Lei entra em vigor após 60 (sessenta) dias da data de sua publicação.
+Palácio Rio Branco, 09 de setembro de 2021
+Verª.Maria Leticia
+Verª.Carol Dartora
+Verª.Flavia Francischini
+Ver.Marcos Vieira
+Verª.Noemia Rocha
+Verª.Professora Josete
+Ver.Renato Freitas
+Verª.Giórgia Prates - Mandata Pre
+Justificativa
+O presente Projeto de Lei tem por objetivo instituir no âmbito do Município Curitiba um s
+bicicletas compartilhadas, visando incentivar o uso de um transporte sustentável, eficiente
+acessível e com diversos benefícios à saúde individual e coletiva. Além disso, busca-se também
+o desenvolvimento da rede cicloviária do município, com base nos dados de uso do sistema, be
+integração das bicicletas com o transporte coletivo, complementando os trajetos com a primeir
+milhas . 
+O sistema proposto trata-se de uma estratégia já utilizada em grandes centros urbanos como No
+Paris, Berlim, Santiago, Buenos Aires, Cidade do México e Barcelona. Já no Brasil, cidades 
+Paulo, Rio de Janeiro e Recife já desenvolveram programas similares, sendo notável os b
+auferidos pela população.
+A mobilidade ativa é de suma importância para transformação das cidades, tendo em vista seu
+benefícios de curto, médio e longo prazo. 
+Em primeiro lugar, o estímulo ao uso das bicicletas na rotina da população impacta diretamente
+à cidade para muitos, em razão de seu valor democrático. Ademais, o uso da bicicleta promove
+ 
+ 
+do tráfego de carros, aumentando a fluidez das vias. De acordo com pesquisa Ipsos[1] realizada
+os brasileiros gastam, em média, 1h20 para se deslocar (ida e volta) para as atividades principa
+tempo equivalente a praticamente 32 dias no ano. O custo com o congestionamento no país so
+de R$267 bilhões por ano, o que corresponde a cerca de 4% do Produto Interno Bruto (PIB) 
+Com base em estudo do CEBRAP, se a maioria das viagens de até 8km fossem feitas de b
+tempo perdido no congestionamento se reduziria em 11%. Apenas em São Paulo, isso signif
+aumento no PIB de R$225 milhões por ano.[2]
+Quando olhamos para o impacto ambiental e na saúde, temos que os automóveis são respon
+ 
+ 
+72,6% das emissões degases efeito estufa (GEE), vilões do aquecimento global.[3] De acor
+patologista Paulo Saldiva, professor da Escola de Medicina da USP, os residentes de São Pau
+em média um ano e meio de vida por causa dessa poluição.[4] O uso da bicicleta em todo seu
+ 
+geraria uma economia de R$35 milhões ao SUS em São Paulo.[5] Também, este modal é imp
+ 
+estímulo à prática de esportes, sendo a segunda atividade física mais praticada no Brasil.[6]
+Para a saúde coletiva, por fim, os impactos são diretos e indiretos, havendo um beneficiam
+redução de estresse e problemas diversos de saúde decorrentes da poluição e dos congestioname
+forma mais direta, a melhoria geral da saúde pela prática de um exercício físico. Inclusive
+estudo realizado pelo CEBRAP, notou-se a possibilidade de redução de aproximadamente R$ 3
+nos gastos do SUS[7], apenas decorrentes do uso deste modal. Inclusive, recomendado pela Or
+Mundial de Saúde (OMS) como melhor alternativa de mobilidade durante a pandemia de COV
+ 
+ser um modal individual e utilizado em locais abertos.  
+Por fim, considerando o alto custo da implantação dos sistemas de bicicletas compartilhadas,
+que tais sistemas não terão nenhum custo para o município e que é do interesse municipal que
+seja disponibilizado em valor acessível, autoriza-se que os operadores do sistema possam fi
+custo com apoio de patrocinadores e mídia. 
+A permissão da publicidade em mobiliários urbanos, bicicletas e demais equipamentos do 
+essencial à viabilidade econômica da presente política pública de mobilidade e, por iss
+necessárias a criação de regras específicas.
+Ademais, esse formato de composição econômica para sistemas sem custo para o munic
+amplamente adotado em diversas cidades do mundo, conforme é possível se observar pelo
+Micromobilidade Compartilhada (https://guia.micromobilidadebrasil.org/). 
+Ademais, a experiência comparada demonstra a existência de serviços de compartilhamento de
+em grandes metrópoles, tais como Rio de Janeiro, São Paulo, Nova Iorque e Washington, sen
+autorização para a exploração de publicidade nas bicicletas e estações sem que houvesse polui
+e  ainda contribuindo para o preço módico da locação das bicicletas.   
+Desta forma, a permissão para a exploração de publicidade padronizada nas estações, bicicleta
+serviços oferecidos contribuirá decisivamente tanto para a expansão das áreas atendidas pelo 
+bicicletas compartilhadas quanto para a ampliação do número total de bicicletas dispon
+curitibanos, maximizando os benefícios deste modal ambientalmente correto. 
+Além disso, verifica-se que inexiste vedação expressa à inclusão da referida permissão de publ
+presente lei, vez que a Lei Municipal n° 8.471/1994 que dispõe, de forma geral, sobre a publici
+livre no âmbito do Município de Curitiba viabiliza a inclusão de publicidades em calçada
+regulamentada por legislação própria. Neste sentido, a inclusão dos arts. 13 e 14° ao presente 
+Lei atende ao referido propósito.
+No entanto, não localizamos nenhuma norma específica que regulamente a publicidade ou propa
+estações de bicicleta no Município, salvo a Lei Municipal nº 14.723/2015, que autoriza expressa
+seu art. 5ª a possibilidade de divulgação da logomarca que atesta a condição de "Empresa 
+Bicicleta" em produtos e material publicitário. Ressaltamos, porém, que essa norma se aplica s
+empresas que disponibilizem aos seus funcionários e clientes bicicletários integrados com b
+chuveiros, armários e vestiários adequados aos ciclistas.
+Assim, almeja-se tornar a bicicleta parte estratégica do sistema de transporte público d
+ 
+interligando os bairros aos terminais e eixos modais de transporte público. 
+Nesse sentido, pedimos a atenção dos Nobres Pares para a aprovação deste importante projeto.
+[1]https://valorinveste.globo.com/objetivo/organize-as-contas/noticia/2019/05/30/brasileiros-ga
+dias-do-ano-no-transito-diz-pesquisa.ghtml
+[2] 
+https://ciclovivo.com.br/arq-urb/mobilidade/uso-de-bicicleta-pode-representar-aumen
+milhoes-no-pib-de-sao-paulo/
+[3]  https://exame.com/brasil/carros-representam-726-da-emissao-de-gases-efeito-estufa-em-sp/
+[4] 
+https://wribrasil.org.br/pt/blog/2018/07/qual-o-impacto-da-poluicao-do-ar
+utm_source=google&utm_medium=cpc&utm_campaign=clima&gclid=CjwKCAiA8Jf-BRB
+EiwAWDtEGi6LSRFTxH1qvm6qtsIaU1VURqra5g9T1kGoa3nu1H4m3GXjG_ZgMRoCvBcQ
+[5] 
+https://agenciabrasil.ebc.com.br/economia/noticia/2018-06/uso-de-bicicleta-pode-reduzir
+milhoes-gastos-do-sus-em-sp
+[6] Segundo dados compartilhados pelo ministério do esporte, 14,1% dos cidadãos usam a bicic
+atividade física, resultado em aproximadamente 30 milhões de pessoas.
+[7] https://agenciabrasil.ebc.com.br/economia/noticia/2018-06/uso-de-bicicleta-pode-reduzir-e
+344-milhoes-gastos-do-sus-em-sp
