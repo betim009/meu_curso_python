@@ -34,26 +34,25 @@ adversario_pokes = [
 meu_pokemon = meus_pokes[0] # charmander
 adversario_pokemon = adversario_pokes[0] # squirtle
 
-
 # Combate
 print("Inciando o combate.")
 print()
 while True: # Loop 
     print("Meu pokemon atacando")
-    adversario_pokemon["vida"] -= 2
+    adversario_pokemon["vida"] -= 2 # Reduzo a vida do pokemon adversario
     print(adversario_pokemon)
     print() # PULA LINHA
 
-    if adversario_pokemon["vida"] <= 0:
+    if adversario_pokemon["vida"] <= 0: # Verifico se ele foi derrotado
         print("Adversario derrotado")
         break
 
     print("Pokemon do adversario atacando")
-    meu_pokemon["vida"] -= 4
+    meu_pokemon["vida"] -= 4 # Reduzindo a vida do meu pokemon
     print(meu_pokemon)
     print() # PULA LINHA
 
-    if meu_pokemon["vida"] <= 0:
+    if meu_pokemon["vida"] <= 0: # Verifico se eu fui derrotado
         print("Fui derrotado")
         break
 
