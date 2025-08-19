@@ -1,4 +1,7 @@
-usuario = {"nome": "Arlindo Cruz"}
-usuarios = ["Arlindo", "Zeca"]
+while True:
+    print("Luz Acessa!")
+    print("Luz Acessa!")
+    print("Luz Acessa!")
+    print("Luz Acessa!")
 
-print(usuarios[1])
+    break
