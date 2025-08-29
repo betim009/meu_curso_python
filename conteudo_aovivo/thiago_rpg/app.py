@@ -1,78 +1,37 @@
+from heros import heros
 import pandas as pd
-from heros import hero_list
+
+while True:
+    print("0 - New Game")
+    print("1 - Load Game")
+    print("X - Quit\n")
+
+    entry = input("R: ")
 
 
-def main():
-    while True:
-        print("[0] - New Game")
-        print("[1] - Load Game")
-        print("[2] - Quit\n")
+    if entry == "0":
+        for index, i in enumerate(heros):
+            print(f"{index} | {i['name']} - {i['class']}")
 
-        entry = input("R: ")
+        new_hero = input("\nR: ") # 0 ou 1
 
-        if entry == "2":
-            break
+        load_game_csv = pd.read_csv("load_game.csv")
+        load_game = []
 
-        if entry == "0":
-            print("\n")
-            for index, hero in enumerate(hero_list):
-                print(f'[{index}] - {hero["name"]} | {hero["class"]}')
+        for index, row in load_game_csv.iterrows():
+            load_game.append({
+                "name": row["name"],
+                "class": row["class"],
+                "level": row["level"]
+            })
 
-            entry_1 = input("R: ")
+        load_game.append(heros[int(new_hero)])
+        pd.DataFrame(load_game).to_csv("load_game.csv")
 
-            loaded_game = pd.read_csv("load_games.csv")
 
-            games = []
-            for index, row in loaded_game.iterrows():
-                games.append(
-                    {
-                        "id_game": row["id_game"],
-                        "name": row["name"],
-                        "class": row["class"],
-                    }
-                )
+        
 
-            new_game = {
-                "id_game": len(games) + 1,
-                "name": hero_list[int(entry_1)]["name"],
-                "class": hero_list[int(entry_1)]["class"],
-                "level": 1,
-                "health": hero_list[int(entry_1)]["health"],
-                "damage": hero_list[int(entry_1)]["damage"],
-                "exp": 0
-            }
-            games.append(new_game)
-
-            pd.DataFrame(games).to_csv("load_games.csv")
-
-        if entry == "1":
-            loaded_game = pd.read_csv("load_games.csv")
-
-            for index, row in loaded_game.iterrows():
-                print(f'[{row["id_game"]}] - {row["name"]} | {row["class"]}')
-
-            print("Choice by number: ")
-            entry_2 = input("R: ")
-
-            games = []
-            for index, row in loaded_game.iterrows():
-                games.append(
-                    {
-                        "id_game": row["id_game"],
-                        "name": row["name"],
-                        "class": row["class"],
-                    }
-                )
-            
-            in_game = games[int(entry_2 ) - 1]
-            print(f"\nFaca a sua escolha {in_game["name"]}\n")
-
-            print("[0] - Shop")
-            print("[1] - Dungeons")
-            print("[2] - Quit")
-
-            entry_3 = input("R: ")
+    elif entry == "1":
+        pass
+    else:
         break
-
-
-main()
