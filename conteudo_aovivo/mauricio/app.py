@@ -67,7 +67,18 @@ while True:
         print("Informe o ID do usuario que deseja saber o deposito")
     elif entrada == "2":
         print("Informe o ID do usuario que deseja saber o saque")
-    else:
+    elif entrada == "3":
         print("Lista dos nossos usuarios.")
+    elif entrada == "4":
+        print("Informe os dados do usuario que deseja cadastrar")
+        nome = input("Digite o nome: ")
+        idade = input("Digite a idade: ")
+
+    elif entrada == "5":
+        print("Informe o id do usuario que deseja cadastrar o saque")
+    elif entrada == "6":
+        print("Informe o id do usuario que deseja cadastrar o deposito")
+    else:
+        print("Opcao invalida")
 
     break # ENCERRA
