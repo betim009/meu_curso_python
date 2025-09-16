@@ -1,0 +1,30 @@
+Respostas do Desafio Técnico
+
+(a) Recomendação de Filme
+A análise estatística mostrou que as médias de notas por gênero apresentam pouca variação, em torno de 8 pontos, indicando que não há diferenças significativas entre eles. Dessa forma, a estratégia recomendada seria considerar a preferência de gênero da pessoa interessada e, a partir disso, indicar os filmes com melhores avaliações (IMDB_Rating) dentro desse gênero, priorizando também aqueles com maior número de votos, para garantir representatividade da amostra.
+
+Caso a pessoa não possua preferência de gênero definida, a recomendação adequada seria o filme “The Dark Knight”, por reunir simultaneamente uma das maiores notas do conjunto de dados e também uma excelente arrecadação, conciliando qualidade crítica e sucesso comercial.
+
+(b) Fatores Relacionados ao Faturamento (Gross)
+A análise exploratória identificou que o faturamento dos filmes está associado principalmente aos seguintes fatores:
+- Número de votos (No_of_Votes): filmes com maior audiência tendem a arrecadar mais.
+- Nota IMDB (IMDB_Rating): relação moderada, indicando que avaliações positivas podem contribuir para maior arrecadação.
+- Meta_score (crítica especializada): apresenta influência adicional, ainda que menos expressiva que os votos.
+
+O cruzamento entre Gross e IMDB_Rating permitiu definir quatro grupos distintos:
+- Alta arrecadação + Alta nota → filmes que corresponderam às expectativas (casos de sucesso).
+- Alta arrecadação + Baixa nota → filmes que tiveram forte marketing ou hype, mas não sustentaram a qualidade (não recomendáveis).
+- Baixa arrecadação + Alta nota → filmes de nicho, bem avaliados pela crítica, mas com público limitado.
+- Baixa arrecadação + Baixa nota → filmes que fracassaram tanto em arrecadação quanto em avaliação.
+
+(c) Insight a partir das Overview
+A coluna Overview representa as sinopses textuais dos filmes e foi utilizada como variável no modelo preditivo por meio da técnica TF-IDF. Esse recurso permitiu que a informação textual complementasse as variáveis numéricas no processo de previsão da nota IMDB.
+
+Embora não tenha sido conduzida uma análise linguística detalhada (como nuvem de palavras, tópicos ou agrupamento semântico), a utilização da Overview demonstra o potencial de incorporar dados textuais como fonte adicional de informação. Como próximo passo, seria possível explorar a distribuição de termos por gênero, identificar palavras-chave mais frequentes e analisar padrões de linguagem associados ao sucesso ou fracasso dos filmes.
+
+Métricas do Modelo (Ridge baseline):
+- MAE: ~0.167
+- RMSE: ~0.208
+- R²: ~0.338
+
+O pipeline final foi salvo em: models/model.pkl

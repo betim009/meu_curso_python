@@ -1,0 +1,211 @@
+Genre,Series_Title,IMDB_Rating,No_of_Votes,Meta_score,Released_Year,Director
+Action,The Dark Knight,9.0,2303232,84.0,2008,Christopher Nolan
+Action,The Lord of the Rings: The Return of the King,8.9,1642758,94.0,2003,Peter Jackson
+Action,Inception,8.8,2067042,74.0,2010,Christopher Nolan
+Action,The Lord of the Rings: The Fellowship of the Ring,8.8,1661481,92.0,2001,Peter Jackson
+Action,The Matrix,8.7,1676426,73.0,1999,Lana Wachowski
+Action,The Lord of the Rings: The Two Towers,8.7,1485555,87.0,2002,Peter Jackson
+Action,Star Wars: Episode V - The Empire Strikes Back,8.7,1159315,82.0,1980,Irvin Kershner
+Action,Star Wars,8.6,1231473,90.0,1977,George Lucas
+Action,Shichinin no samurai,8.6,315744,98.0,1954,Akira Kurosawa
+Action,Seppuku,8.6,42004,85.0,1962,Masaki Kobayashi
+Adventure,The Lord of the Rings: The Return of the King,8.9,1642758,94.0,2003,Peter Jackson
+Adventure,Inception,8.8,2067042,74.0,2010,Christopher Nolan
+Adventure,The Lord of the Rings: The Fellowship of the Ring,8.8,1661481,92.0,2001,Peter Jackson
+Adventure,The Lord of the Rings: The Two Towers,8.7,1485555,87.0,2002,Peter Jackson
+Adventure,Star Wars: Episode V - The Empire Strikes Back,8.7,1159315,82.0,1980,Irvin Kershner
+Adventure,Interstellar,8.6,1512360,74.0,2014,Christopher Nolan
+Adventure,Star Wars,8.6,1231473,90.0,1977,George Lucas
+Adventure,Sen to Chihiro no kamikakushi,8.6,651376,96.0,2001,Hayao Miyazaki
+Adventure,Shichinin no samurai,8.6,315744,98.0,1954,Akira Kurosawa
+Adventure,Gladiator,8.5,1341460,67.0,2000,Ridley Scott
+Animation,Sen to Chihiro no kamikakushi,8.6,651376,96.0,2001,Hayao Miyazaki
+Animation,The Lion King,8.5,942045,88.0,1994,Roger Allers
+Animation,Hotaru no haka,8.5,235231,94.0,1988,Isao Takahata
+Animation,WALL·E,8.4,999790,95.0,2008,Andrew Stanton
+Animation,Coco,8.4,384171,81.0,2017,Lee Unkrich
+Animation,Spider-Man: Into the Spider-Verse,8.4,375110,87.0,2018,Bob Persichetti
+Animation,Mononoke-hime,8.4,343171,76.0,1997,Hayao Miyazaki
+Animation,Kimi no na wa.,8.4,194838,79.0,2016,Makoto Shinkai
+Animation,Toy Story,8.3,887429,95.0,1995,John Lasseter
+Animation,Up,8.2,935507,88.0,2009,Pete Docter
+Biography,Schindler's List,8.9,1213505,94.0,1993,Steven Spielberg
+Biography,Goodfellas,8.7,1020727,90.0,1990,Martin Scorsese
+Biography,Hamilton,8.6,55291,90.0,2020,Thomas Kail
+Biography,The Intouchables,8.5,760360,57.0,2011,Olivier Nakache
+Biography,The Pianist,8.5,729603,85.0,2002,Roman Polanski
+Biography,Dangal,8.4,156479,,2016,Nitesh Tiwari
+Biography,Ayla: The Daughter of War,8.4,34112,,2017,Can Ulkay
+Biography,Braveheart,8.3,959181,68.0,1995,Mel Gibson
+Biography,Amadeus,8.3,369007,88.0,1984,Milos Forman
+Biography,Lawrence of Arabia,8.3,268085,100.0,1962,David Lean
+Comedy,La vita è bella,8.6,623629,59.0,1997,Roberto Benigni
+Comedy,Gisaengchung,8.6,552778,96.0,2019,Bong Joon Ho
+Comedy,Back to the Future,8.5,1058081,87.0,1985,Robert Zemeckis
+Comedy,The Intouchables,8.5,760360,57.0,2011,Olivier Nakache
+Comedy,Modern Times,8.5,217881,96.0,1936,Charles Chaplin
+Comedy,City Lights,8.5,167839,99.0,1931,Charles Chaplin
+Comedy,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,8.4,450474,97.0,1964,Stanley Kubrick
+Comedy,3 Idiots,8.4,344445,67.0,2009,Rajkumar Hirani
+Comedy,The Great Dictator,8.4,203150,,1940,Charles Chaplin
+Comedy,Toy Story,8.3,887429,95.0,1995,John Lasseter
+Crime,The Godfather,9.2,1620367,100.0,1972,Francis Ford Coppola
+Crime,The Dark Knight,9.0,2303232,84.0,2008,Christopher Nolan
+Crime,The Godfather: Part II,9.0,1129952,90.0,1974,Francis Ford Coppola
+Crime,12 Angry Men,9.0,689845,96.0,1957,Sidney Lumet
+Crime,Pulp Fiction,8.9,1826188,94.0,1994,Quentin Tarantino
+Crime,Goodfellas,8.7,1020727,90.0,1990,Martin Scorsese
+Crime,Se7en,8.6,1445096,65.0,1995,David Fincher
+Crime,The Silence of the Lambs,8.6,1270197,85.0,1991,Jonathan Demme
+Crime,The Green Mile,8.6,1147794,61.0,1999,Frank Darabont
+Crime,Cidade de Deus,8.6,699256,79.0,2002,Fernando Meirelles
+Drama,The Godfather,9.2,1620367,100.0,1972,Francis Ford Coppola
+Drama,The Dark Knight,9.0,2303232,84.0,2008,Christopher Nolan
+Drama,The Godfather: Part II,9.0,1129952,90.0,1974,Francis Ford Coppola
+Drama,12 Angry Men,9.0,689845,96.0,1957,Sidney Lumet
+Drama,Pulp Fiction,8.9,1826188,94.0,1994,Quentin Tarantino
+Drama,The Lord of the Rings: The Return of the King,8.9,1642758,94.0,2003,Peter Jackson
+Drama,Schindler's List,8.9,1213505,94.0,1993,Steven Spielberg
+Drama,Fight Club,8.8,1854740,66.0,1999,David Fincher
+Drama,Forrest Gump,8.8,1809221,82.0,1994,Robert Zemeckis
+Drama,The Lord of the Rings: The Fellowship of the Ring,8.8,1661481,92.0,2001,Peter Jackson
+Family,Sen to Chihiro no kamikakushi,8.6,651376,96.0,2001,Hayao Miyazaki
+Family,It's a Wonderful Life,8.6,405801,89.0,1946,Frank Capra
+Family,Modern Times,8.5,217881,96.0,1936,Charles Chaplin
+Family,WALL·E,8.4,999790,95.0,2008,Andrew Stanton
+Family,Coco,8.4,384171,81.0,2017,Lee Unkrich
+Family,Taare Zameen Par,8.4,168895,,2007,Aamir Khan
+Family,The Kid,8.3,113314,,1921,Charles Chaplin
+Family,Babam ve Oglum,8.3,78925,,2005,Çagan Irmak
+Family,Bacheha-Ye aseman,8.3,65341,77.0,1997,Majid Majidi
+Family,Hauru no ugoku shiro,8.2,333915,80.0,2004,Hayao Miyazaki
+Fantasy,Star Wars: Episode V - The Empire Strikes Back,8.7,1159315,82.0,1980,Irvin Kershner
+Fantasy,Star Wars,8.6,1231473,90.0,1977,George Lucas
+Fantasy,The Green Mile,8.6,1147794,61.0,1999,Frank Darabont
+Fantasy,It's a Wonderful Life,8.6,405801,89.0,1946,Frank Capra
+Fantasy,Kimi no na wa.,8.4,194838,79.0,2016,Makoto Shinkai
+Fantasy,Star Wars: Episode VI - Return of the Jedi,8.3,950470,58.0,1983,Richard Marquand
+Fantasy,Tumbbad,8.3,27793,,2018,Rahi Anil Barve
+Fantasy,Pan's Labyrinth,8.2,618623,98.0,2006,Guillermo del Toro
+Fantasy,Monty Python and the Holy Grail,8.2,500875,91.0,1975,Terry Gilliam
+Fantasy,Tonari no Totoro,8.2,291180,86.0,1988,Hayao Miyazaki
+Film-Noir,Sunset Blvd.,8.4,201632,,1950,Billy Wilder
+Film-Noir,Double Indemnity,8.3,143525,95.0,1944,Billy Wilder
+Film-Noir,The Third Man,8.1,158731,97.0,1949,Carol Reed
+Film-Noir,Ace in the Hole,8.1,31568,72.0,1951,Billy Wilder
+Film-Noir,The Maltese Falcon,8.0,148928,96.0,1941,John Huston
+Film-Noir,Touch of Evil,8.0,98431,99.0,1958,Orson Welles
+Film-Noir,The Night of the Hunter,8.0,81980,99.0,1955,Charles Laughton
+Film-Noir,The Killing,8.0,81702,91.0,1956,Stanley Kubrick
+Film-Noir,Laura,8.0,42725,,1944,Otto Preminger
+Film-Noir,Out of the Past,8.0,32784,,1947,Jacques Tourneur
+History,Schindler's List,8.9,1213505,94.0,1993,Steven Spielberg
+History,Hamilton,8.6,55291,90.0,2020,Thomas Kail
+History,Ayla: The Daughter of War,8.4,34112,,2017,Can Ulkay
+History,Braveheart,8.3,959181,68.0,1995,Mel Gibson
+History,Amadeus,8.3,369007,88.0,1984,Milos Forman
+History,Der Untergang,8.2,331308,82.0,2004,Oliver Hirschbiegel
+History,The Great Escape,8.2,224730,86.0,1963,John Sturges
+History,Det sjunde inseglet,8.2,164939,88.0,1957,Ingmar Bergman
+History,The Message,8.2,43885,,1976,Moustapha Akkad
+History,12 Years a Slave,8.1,640533,96.0,2013,Steve McQueen
+Horror,Psycho,8.5,604211,97.0,1960,Alfred Hitchcock
+Horror,The Shining,8.4,898237,66.0,1980,Stanley Kubrick
+Horror,Alien,8.4,787806,89.0,1979,Ridley Scott
+Horror,Tumbbad,8.3,27793,,2018,Rahi Anil Barve
+Horror,The Thing,8.1,371271,57.0,1982,John Carpenter
+Horror,Das Cabinet des Dr. Caligari,8.1,57428,,1920,Robert Wiene
+Horror,What Ever Happened to Baby Jane?,8.1,50058,75.0,1962,Robert Aldrich
+Horror,The Exorcist,8.0,362393,81.0,1973,William Friedkin
+Horror,Rosemary's Baby,8.0,193674,96.0,1968,Roman Polanski
+Horror,Les diaboliques,8.0,61503,,1955,Henri-Georges Clouzot
+Music,The Pianist,8.5,729603,85.0,2002,Roman Polanski
+Music,Whiplash,8.5,717585,88.0,2014,Damien Chazelle
+Music,Andhadhun,8.3,71875,,2018,Sriram Raghavan
+Music,Some Like It Hot,8.2,243943,98.0,1959,Billy Wilder
+Music,Höstsonaten,8.2,26875,,1978,Ingmar Bergman
+Music,Pink Floyd: The Wall,8.1,76081,47.0,1982,Alan Parker
+Music,La leggenda del pianista sull'oceano,8.1,59020,58.0,1998,Giuseppe Tornatore
+Music,Okuribito,8.1,48582,68.0,2008,Yôjirô Takita
+Music,The Red Shoes,8.1,30935,,1948,Michael Powell
+Music,Ba wang bie ji,8.1,25088,,1993,Kaige Chen
+Musical,Anand,8.4,30273,,1971,Hrishikesh Mukherjee
+Musical,Singin' in the Rain,8.3,218957,99.0,1952,Stanley Donen
+Musical,PK,8.1,163061,,2014,Rajkumar Hirani
+Musical,Lagaan: Once Upon a Time in India,8.1,105036,84.0,2001,Ashutosh Gowariker
+Musical,Munna Bhai M.B.B.S.,8.1,73992,,2003,Rajkumar Hirani
+Musical,Dancer in the Dark,8.0,102285,61.0,2000,Lars von Trier
+Musical,Kal Ho Naa Ho,8.0,63460,54.0,2003,Nikkhil Advani
+Musical,Fiddler on the Roof,8.0,39491,67.0,1971,Norman Jewison
+Musical,A Night at the Opera,7.9,30580,,1935,Sam Wood
+Musical,All That Jazz,7.9,28223,72.0,1979,Bob Fosse
+Mystery,Se7en,8.6,1445096,65.0,1995,David Fincher
+Mystery,Seppuku,8.6,42004,85.0,1962,Masaki Kobayashi
+Mystery,The Prestige,8.5,1190259,66.0,2006,Christopher Nolan
+Mystery,The Usual Suspects,8.5,991208,77.0,1995,Bryan Singer
+Mystery,Psycho,8.5,604211,97.0,1960,Alfred Hitchcock
+Mystery,Memento,8.4,1125712,80.0,2000,Christopher Nolan
+Mystery,Apocalypse Now,8.4,606398,94.0,1979,Francis Ford Coppola
+Mystery,Oldeuboi,8.4,515451,77.0,2003,Chan-wook Park
+Mystery,Rear Window,8.4,444074,100.0,1954,Alfred Hitchcock
+Mystery,The Lives of Others,8.4,358685,89.0,2006,Florian Henckel von Donnersmarck
+Romance,Forrest Gump,8.8,1809221,82.0,1994,Robert Zemeckis
+Romance,La vita è bella,8.6,623629,59.0,1997,Roberto Benigni
+Romance,Casablanca,8.5,522093,100.0,1942,Michael Curtiz
+Romance,Nuovo Cinema Paradiso,8.5,230763,80.0,1988,Giuseppe Tornatore
+Romance,City Lights,8.5,167839,99.0,1931,Charles Chaplin
+Romance,Eternal Sunshine of the Spotless Mind,8.3,911664,89.0,2004,Michel Gondry
+Romance,Good Will Hunting,8.3,861606,70.0,1997,Gus Van Sant
+Romance,Amélie,8.3,703810,69.0,2001,Jean-Pierre Jeunet
+Romance,Vertigo,8.3,364368,100.0,1958,Alfred Hitchcock
+Romance,Singin' in the Rain,8.3,218957,99.0,1952,Stanley Donen
+Sci-Fi,Inception,8.8,2067042,74.0,2010,Christopher Nolan
+Sci-Fi,The Matrix,8.7,1676426,73.0,1999,Lana Wachowski
+Sci-Fi,Interstellar,8.6,1512360,74.0,2014,Christopher Nolan
+Sci-Fi,The Prestige,8.5,1190259,66.0,2006,Christopher Nolan
+Sci-Fi,Back to the Future,8.5,1058081,87.0,1985,Robert Zemeckis
+Sci-Fi,Terminator 2: Judgment Day,8.5,995506,75.0,1991,James Cameron
+Sci-Fi,Avengers: Infinity War,8.4,834477,68.0,2018,Anthony Russo
+Sci-Fi,Alien,8.4,787806,89.0,1979,Ridley Scott
+Sci-Fi,Eternal Sunshine of the Spotless Mind,8.3,911664,89.0,2004,Michel Gondry
+Sci-Fi,A Clockwork Orange,8.3,757904,77.0,1971,Stanley Kubrick
+Sport,Bacheha-Ye aseman,8.3,65341,77.0,1997,Majid Majidi
+Sport,Warrior,8.2,435950,71.0,2011,Gavin O'Connor
+Sport,Raging Bull,8.2,321860,89.0,1980,Martin Scorsese
+Sport,Chak De! India,8.2,74129,68.0,2007,Shimit Amin
+Sport,Bhaag Milkha Bhaag,8.2,61137,,2013,Rakeysh Omprakash Mehra
+Sport,The Big Lebowski,8.1,732620,71.0,1998,Joel Coen
+Sport,Million Dollar Baby,8.1,635975,86.0,2004,Clint Eastwood
+Sport,Rocky,8.1,518546,70.0,1976,John G. Avildsen
+Sport,The Hustler,8.0,75067,90.0,1961,Robert Rossen
+Sport,The Wrestler,7.9,289415,80.0,2008,Darren Aronofsky
+Thriller,The Silence of the Lambs,8.6,1270197,85.0,1991,Jonathan Demme
+Thriller,Gisaengchung,8.6,552778,96.0,2019,Bong Joon Ho
+Thriller,The Departed,8.5,1189773,85.0,2006,Martin Scorsese
+Thriller,The Usual Suspects,8.5,991208,77.0,1995,Bryan Singer
+Thriller,Joker,8.5,939252,59.0,2019,Todd Phillips
+Thriller,Psycho,8.5,604211,97.0,1960,Alfred Hitchcock
+Thriller,Memento,8.4,1125712,80.0,2000,Christopher Nolan
+Thriller,Rear Window,8.4,444074,100.0,1954,Alfred Hitchcock
+Thriller,The Lives of Others,8.4,358685,89.0,2006,Florian Henckel von Donnersmarck
+Thriller,Reservoir Dogs,8.3,918562,79.0,1992,Quentin Tarantino
+War,Saving Private Ryan,8.6,1235804,91.0,1998,Steven Spielberg
+War,Casablanca,8.5,522093,100.0,1942,Michael Curtiz
+War,Hotaru no haka,8.5,235231,94.0,1988,Isao Takahata
+War,Apocalypse Now,8.4,606398,94.0,1979,Francis Ford Coppola
+War,The Great Dictator,8.4,203150,,1940,Charles Chaplin
+War,Paths of Glory,8.4,178092,90.0,1957,Stanley Kubrick
+War,Inglourious Basterds,8.3,1267869,69.0,2009,Quentin Tarantino
+War,Full Metal Jacket,8.3,675146,76.0,1987,Stanley Kubrick
+War,1917,8.3,425844,78.0,2019,Sam Mendes
+War,Incendies,8.3,150023,80.0,2010,Denis Villeneuve
+Western,"Il buono, il brutto, il cattivo",8.8,688390,90.0,1966,Sergio Leone
+Western,Once Upon a Time in the West,8.5,302844,80.0,1968,Sergio Leone
+Western,Django Unchained,8.4,1357682,81.0,2012,Quentin Tarantino
+Western,Per qualche dollaro in più,8.3,232772,74.0,1965,Sergio Leone
+Western,Unforgiven,8.2,375935,85.0,1992,Clint Eastwood
+Western,The Treasure of the Sierra Madre,8.2,114304,98.0,1948,John Huston
+Western,The Man Who Shot Liberty Valance,8.1,68827,94.0,1962,John Ford
+Western,Dances with Wolves,8.0,240266,72.0,1990,Kevin Costner
+Western,Per un pugno di dollari,8.0,198219,65.0,1964,Sergio Leone
+Western,Rio Bravo,8.0,56305,93.0,1959,Howard Hawks

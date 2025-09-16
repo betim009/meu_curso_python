@@ -1,0 +1,21 @@
+Series_Title,IMDB_Rating,Gross,No_of_Votes,Meta_score,Released_Year,Genre,Director,Categoria_Avaliacao
+Star Wars: Episode VII - The Force Awakens,7.9,936662225.0,860823,80.0,2015,"Action, Adventure, Sci-Fi",J.J. Abrams,Média
+Avengers: Endgame,8.4,858373000.0,809955,78.0,2019,"Action, Adventure, Drama",Anthony Russo,Alta (>= Q3)
+Avatar,7.8,760507625.0,1118998,83.0,2009,"Action, Adventure, Fantasy",James Cameron,Média
+Avengers: Infinity War,8.4,678815482.0,834477,68.0,2018,"Action, Adventure, Sci-Fi",Anthony Russo,Alta (>= Q3)
+Titanic,7.8,659325379.0,1046089,75.0,1997,"Drama, Romance",James Cameron,Média
+The Avengers,8.0,623279547.0,1260806,69.0,2012,"Action, Adventure, Sci-Fi",Joss Whedon,Média
+Incredibles 2,7.6,608581744.0,250057,80.0,2018,"Animation, Action, Adventure",Brad Bird,Baixa (<= Q1)
+The Dark Knight,9.0,534858444.0,2303232,84.0,2008,"Action, Crime, Drama",Christopher Nolan,Alta (>= Q3)
+Rogue One,7.8,532177324.0,556608,65.0,2016,"Action, Adventure, Sci-Fi",Gareth Edwards,Média
+The Dark Knight Rises,8.4,448139099.0,1516346,78.0,2012,"Action, Adventure",Christopher Nolan,Alta (>= Q3)
+E.T. the Extra-Terrestrial,7.8,435110554.0,372490,91.0,1982,"Family, Sci-Fi",Steven Spielberg,Média
+Toy Story 4,7.8,434038008.0,203177,84.0,2019,"Animation, Adventure, Comedy",Josh Cooley,Média
+The Lion King,8.5,422783777.0,942045,88.0,1994,"Animation, Adventure, Drama",Roger Allers,Alta (>= Q3)
+Toy Story 3,8.2,415004880.0,757032,92.0,2010,"Animation, Adventure, Comedy",Lee Unkrich,Alta (>= Q3)
+Captain America: Civil War,7.8,408084349.0,663649,75.0,2016,"Action, Adventure, Sci-Fi",Anthony Russo,Média
+Jurassic Park,8.1,402453882.0,867615,68.0,1993,"Action, Adventure, Sci-Fi",Steven Spielberg,Alta (>= Q3)
+Guardians of the Galaxy Vol. 2,7.6,389813101.0,569974,67.0,2017,"Action, Adventure, Comedy",James Gunn,Baixa (<= Q1)
+Harry Potter and the Deathly Hallows: Part 2,8.1,381011219.0,764493,85.0,2011,"Adventure, Drama, Fantasy",David Yates,Alta (>= Q3)
+Finding Nemo,8.1,380843261.0,949565,90.0,2003,"Animation, Adventure, Comedy",Andrew Stanton,Alta (>= Q3)
+The Lord of the Rings: The Return of the King,8.9,377845905.0,1642758,94.0,2003,"Action, Adventure, Drama",Peter Jackson,Alta (>= Q3)
