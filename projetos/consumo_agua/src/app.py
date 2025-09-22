@@ -1,8 +1,9 @@
 import pandas as pd
 
-from view.overall import *
+# from view.overall import *
+# from view.spread import *
+from view.overall import overall
 from hist.hist_overall import *
-from view.spread import *
 from scatter.scatter_overall import *
 
 
@@ -18,6 +19,8 @@ def init_csv():
 
 
 if __name__ == "__main__":
+    overall.overall_average()
+
     # overall_average()
     # overall_class_average()
     # overall_region_average()
@@ -33,7 +36,7 @@ if __name__ == "__main__":
     # hist_regiao()
 
     # overall_scatter()
-    scatter_class()
-    scatter_region()
-    scatter_region_class()
-    # pass
+    # scatter_class()
+    # scatter_region()
+    # scatter_region_class()
+    pass
