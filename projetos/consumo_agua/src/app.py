@@ -1,25 +1,16 @@
-import pandas as pd
-
 # from view.overall import *
 # from view.spread import *
-from view.overall import overall
+from view.overall import overall_sam, overall_sam_uf
 from hist.hist_overall import *
 from scatter.scatter_overall import *
-
-
-def init_csv():
-    try:
-        df = pd.read_excel("./data/consumo.xlsx", sheet_name=0)
-        for i in range(2):
-            df.to_csv(f"./data/file_{i}.csv", index=False)
-        return True
-    except Exception as e:
-        print(f"Erro ao gerar CSV: {e}")
-        return False
+from view.decision import *
+from utils.init_csv import init_csv
 
 
 if __name__ == "__main__":
-    overall.overall_average()
+    init_csv()
+    overall_sam.overall_average()
+    overall_sam_uf.overall_average()
 
     # overall_average()
     # overall_class_average()
@@ -39,4 +30,6 @@ if __name__ == "__main__":
     # scatter_class()
     # scatter_region()
     # scatter_region_class()
-    pass
+
+    # compare_models()
+    # print(predict_all("Residencial", "Sul"))
