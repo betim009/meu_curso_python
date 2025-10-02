@@ -90,4 +90,42 @@ print("R²:", r2_score(y_test, y_pred))
 	•	max_depth → controla a complexidade da árvore (inteiro ou None).
 	•	random_state → fixa a aleatoriedade para resultados consistentes (inteiro ou None).
 	•	n_estimators → número de árvores no Random Forest (inteiro positivo, padrão = 100).
+    
+    
+## PARAMETROS
+
+
+	max_depth (profundidade da árvore)
+		•	Valores comuns para testar:
+		•	None (cresce até o fim, risco de overfitting)
+		•	5, 10, 20, 30, 40, 50
+		•	Regras práticas:
+		•	Valores baixos → modelo mais simples (underfitting se for muito baixo).
+		•	Valores médios/altos → mais detalhado, pode aprender melhor, mas arrisca overfitting.
+
+        
+	random_state (reprodutibilidade)
+		•	Valores comuns:
+		•	None (cada execução diferente).
+		•	0, 1, 42, 123, 2024 → qualquer inteiro funciona.
+		•	Regra prática:
+		•	Não muda a qualidade do modelo em si, só garante que você possa repetir os resultados.
+		•	O mais usado: 42 (virou um padrão na comunidade).
+
+	
+
+	n_estimators (quantidade de árvores na Random Forest)
+		•	Valores comuns para testar:
+		•	10, 50, 100, 200, 300, 500, 1000
+		•	Regras práticas:
+		•	Poucos estimadores (10, 50) → treino rápido, mas menos robusto.
+		•	Mais estimadores (500, 1000) → mais estável e preciso, mas exige mais processamento.
+		•	100 é o padrão no sklearn.
+
+	
+
+	Resumindo em forma de checklist:
+		•	max_depth → [None, 5, 10, 20, 30, 40, 50]
+		•	random_state → [None, 0, 1, 42, 123, 2024]
+		•	n_estimators → [10, 50, 100, 200, 300, 500, 1000]
 """
