@@ -2,21 +2,21 @@ import pandas as pd
 
 file = pd.read_csv("atletas_exportistas.csv")
 
-lista_esportes = [] # LISTA DE STRING
-quantidade_esportes = [] # LISTA DE DICIONARIO
+lista_esportes = [] 
+quantidade_esportes = [] 
 
-for index, row in file.iterrows(): # PERCORRENDO O ARQUIVO
-    if row["esporte"] not in lista_esportes: # A COLUNA ESPORTE DO ARQUIVO se NAO EXISTE NA LISTA STRING
-        lista_esportes.append(row["esporte"]) # ADICIONA A STRING
-        quantidade_esportes.append({ # ADICIONA O DICIONARIO
+for index, row in file.iterrows(): 
+    if row["esporte"] not in lista_esportes: 
+        lista_esportes.append(row["esporte"]) 
+        quantidade_esportes.append({ 
             "esporte": row["esporte"],
             "quantidade": 1
         })
 
-    else: # SE EXISTIR A STRING
-        for element in quantidade_esportes: # PERCORRE CADA DICIONARIO
-            if element["esporte"] == row["esporte"]: # ECONTRA O DICIONARIO COM MESMO NOME DE ESPORTE
-                element["quantidade"] += 1 # ADICIONA +1 na quantidade
+    else: 
+        for element in quantidade_esportes:
+            if element["esporte"] == row["esporte"]:
+                element["quantidade"] += 1 
 
 
 # print(lista_esportes)
