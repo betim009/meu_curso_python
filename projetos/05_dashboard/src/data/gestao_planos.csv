@@ -1,0 +1,16 @@
+id_solicitacao,cliente_id,cliente_nome,produto,modalidade,valor_total,taxa_juros_aa,prazo_meses,carencia_meses,data_inicio,status,canal,garantia
+SOL-1001,CLI-2001,Ana Souza,Emprestimo Consignado,PF,35000,12.5,48,2,2023-11-05,aprovado,app,holerite
+SOL-1002,CLI-2002,Bruno Lima,Financiamento Veicular,PF,85000,10.9,60,0,2024-01-18,aprovado,agencia,veiculo
+SOL-1003,CLI-3001,Construtora Vale,Financiamento Imobiliario,PJ,420000,9.4,180,6,2024-02-10,em analise,gerente,direitos reais
+SOL-1004,CLI-2003,Carla Menezes,Consorcio Auto,PF,65000,0.0,72,0,2024-03-22,aberto,app,veiculo futuro
+SOL-1005,CLI-2004,Diego Rocha,Emprestimo Pessoal,PF,18000,18.0,24,0,2024-04-07,reprovado,web,sem garantia
+SOL-1006,CLI-3002,TechServ Ltda,Capital de Giro,PJ,150000,16.2,36,3,2024-05-15,aprovado,gerente,recebiveis
+SOL-1007,CLI-2005,Fernanda Alves,Financiamento Imobiliario,PF,320000,8.7,240,3,2024-05-30,aprovado,agencia,imovel
+SOL-1008,CLI-3003,AgroCampo Ltda,Rural,PJ,275000,14.1,60,6,2024-06-12,em analise,gerente,maquinario
+SOL-1009,CLI-2006,Gabriel Torres,Emprestimo Pessoal,PF,12000,22.5,18,0,2024-06-28,aprovado,app,sem garantia
+SOL-1010,CLI-2007,Helena Prado,Consorcio Imovel,PF,450000,0.0,180,0,2024-07-05,aberto,web,carta de credito
+SOL-1011,CLI-3004,Invicta Import FI,Financiamento Veicular,PJ,195000,11.8,48,1,2024-07-18,aprovado,gerente,estoque veiculos
+SOL-1012,CLI-2008,Julia Martins,Emprestimo Consignado,PF,28000,13.2,36,1,2024-08-02,aprovado,app,holerite
+SOL-1013,CLI-3005,MoveMais Transportes,Capital de Giro,PJ,220000,17.5,48,2,2024-08-20,em analise,gerente,recebiveis
+SOL-1014,CLI-2009,Lucas Figueira,Emprestimo Pessoal,PF,9000,24.0,12,0,2024-09-03,aberto,app,sem garantia
+SOL-1015,CLI-2010,Marina Costa,Financiamento Veicular,PF,110000,12.3,72,0,2024-09-15,aprovado,web,veiculo
