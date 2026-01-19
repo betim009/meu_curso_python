@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <row>
+    <index>0</index>
+    <nome>Alberto</nome>
+  </row>
+  <row>
+    <index>1</index>
+    <nome>Marcos</nome>
+  </row>
+  <row>
+    <index>2</index>
+    <nome>Daniel</nome>
+  </row>
+</data>

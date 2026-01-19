@@ -1,0 +1,12 @@
+<Program Name="MainProgram">
+    <Tags>
+       <Tag Name="Velocidade" DataType="REAL">
+          <Description>Setpoint</Description>
+       </Tag>
+    </Tags>
+    <Routines>
+       <Routine Name="Main" Type="RLL">
+           <RLLContent>...</RLLContent>
+       </Routine>
+    </Routines>
+</Program>

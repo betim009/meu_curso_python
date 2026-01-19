@@ -1,0 +1,19 @@
+<pessoas>
+  <pessoa id="1">
+    <nome>Alberto</nome>
+    <idade>28</idade>
+    <cidade>Rio de Janeiro</cidade>
+  </pessoa>
+
+  <pessoa id="2">
+    <nome>Letícia</nome>
+    <idade>24</idade>
+    <cidade>Ibatiba</cidade>
+  </pessoa>
+
+  <pessoa id="3">
+    <nome>Yasmin</nome>
+    <idade>30</idade>
+    <cidade>São Paulo</cidade>
+  </pessoa>
+</pessoas>
