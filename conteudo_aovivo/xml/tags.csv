@@ -1,0 +1,10 @@
+name,data_type,description
+boolean1,BOOL,"
+Test Boolean 1
+"
+dint1,DINT,"
+Test DINT 1
+"
+real1,REAL,"
+Test Real 1
+"
