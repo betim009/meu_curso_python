@@ -11,3 +11,18 @@ pessoa_2 = Pessoa("Vinicius")
 
 pessoa_1.dizer_ola()
 pessoa_2.dizer_ola()
+
+
+class Cliente:
+    def __init__(self, name):
+        self.name = name
+
+    def dizer_ola(self):
+        print("Ola", self.name)
+
+
+cliente_1 = Cliente("Carla")
+cliente_2 = Cliente("Diego")
+
+cliente_1.dizer_ola()
+cliente_2.dizer_ola()
