@@ -1,0 +1,31 @@
+data,loja,produto,categoria,quantidade,preco_unitario,desconto_pct,canal,estado,cliente_id
+2026-01-03,Loja Centro,Cafe 500g,Alimentos,12,18.90,0.05,Loja Fisica,SP,C0012
+2026-01-03,Loja Centro,Leite 1L,Laticinios,20,5.49,0.00,Loja Fisica,SP,C0041
+2026-01-03,E-commerce,Fone Bluetooth,Eletronicos,5,129.90,0.10,Online,RJ,C0108
+2026-01-04,Loja Norte,Arroz 5kg,Alimentos,14,24.90,0.00,Loja Fisica,MG,C0023
+2026-01-04,E-commerce,Mouse Sem Fio,Eletronicos,9,79.90,0.15,Online,SP,C0077
+2026-01-04,Loja Sul,Shampoo 400ml,Higiene,11,17.50,0.05,Loja Fisica,PR,C0059
+2026-01-05,Loja Centro,Cafe 500g,Alimentos,10,18.90,0.00,Loja Fisica,SP,C0033
+2026-01-05,E-commerce,Notebook 14,Eletronicos,2,3299.00,0.08,Online,BA,C0112
+2026-01-05,Loja Norte,Sabonete,Higiene,30,2.99,0.00,Loja Fisica,MG,C0008
+2026-01-06,Loja Sul,Leite 1L,Laticinios,18,5.49,0.00,Loja Fisica,PR,C0091
+2026-01-06,E-commerce,Teclado Mecanico,Eletronicos,4,249.90,0.12,Online,SC,C0126
+2026-01-06,Loja Centro,Detergente 500ml,Limpeza,25,3.79,0.00,Loja Fisica,SP,C0017
+2026-01-07,Loja Norte,Cafe 500g,Alimentos,9,18.90,0.05,Loja Fisica,MG,C0140
+2026-01-07,E-commerce,Monitor 24,Eletronicos,3,899.00,0.10,Online,RJ,C0088
+2026-01-07,Loja Sul,Arroz 5kg,Alimentos,13,24.90,0.00,Loja Fisica,PR,C0027
+2026-01-08,Loja Centro,Shampoo 400ml,Higiene,8,17.50,0.00,Loja Fisica,SP,C0066
+2026-01-08,E-commerce,Fone Bluetooth,Eletronicos,7,129.90,0.05,Online,CE,C0155
+2026-01-08,Loja Norte,Leite 1L,Laticinios,16,5.49,0.00,Loja Fisica,MG,C0101
+2026-01-09,Loja Sul,Sabonete,Higiene,28,2.99,0.00,Loja Fisica,PR,C0048
+2026-01-09,E-commerce,Mouse Sem Fio,Eletronicos,6,79.90,0.10,Online,SP,C0134
+2026-01-09,Loja Centro,Agua Sanitaria 1L,Limpeza,15,6.99,0.00,Loja Fisica,SP,C0020
+2026-01-10,Loja Norte,Detergente 500ml,Limpeza,22,3.79,0.00,Loja Fisica,MG,C0011
+2026-01-10,E-commerce,Smartphone 128GB,Eletronicos,3,1799.00,0.07,Online,PE,C0162
+2026-01-10,Loja Sul,Cafe 500g,Alimentos,11,18.90,0.05,Loja Fisica,PR,C0071
+2026-01-11,Loja Centro,Arroz 5kg,Alimentos,12,24.90,0.00,Loja Fisica,SP,C0099
+2026-01-11,E-commerce,Notebook 14,Eletronicos,1,3299.00,0.05,Online,DF,C0170
+2026-01-11,Loja Norte,Shampoo 400ml,Higiene,10,17.50,0.00,Loja Fisica,MG,C0038
+2026-01-12,Loja Sul,Leite 1L,Laticinios,19,5.49,0.00,Loja Fisica,PR,C0060
+2026-01-12,E-commerce,Teclado Mecanico,Eletronicos,5,249.90,0.10,Online,RS,C0184
+2026-01-12,Loja Centro,Sabonete,Higiene,26,2.99,0.00,Loja Fisica,SP,C0052
