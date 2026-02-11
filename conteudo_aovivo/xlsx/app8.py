@@ -22,4 +22,4 @@ def limpar_arquivo(nome_arquivo, arquivo_saida):
     arquivo.to_excel(arquivo_saida, index=False, header=False)
 
 
-limpar_arquivo("quadro_janeiro.xlsx", "arquivo_limpo.xlsx")
+limpar_arquivo("quadro_janeiro.xlsx", "arquivo_limpo1.xlsx")

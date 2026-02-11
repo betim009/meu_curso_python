@@ -1,10 +1,10 @@
 import pandas as pd
 
 
-def corrigir_coluna_vazia(coluna, arquivo_saida):
+def corrigir_coluna_vazia(coluna, arquivo_entrada, arquivo_saida):
     arquivo = pd.read_excel(
-        "quadro_janeiro.xlsx",
-        sheet_name=2,
+        arquivo_entrada,
+        # sheet_name=2,
         header=None,
         keep_default_na=False,
         dtype=str,
@@ -25,4 +25,7 @@ def corrigir_coluna_vazia(coluna, arquivo_saida):
     arquivo.to_excel(arquivo_saida, index=False)
 
 
-corrigir_coluna_vazia("NOME SOCIAL", "NOMESOCIAL.xlsx")
+corrigir_coluna_vazia("SUPERVISOR", "arquivo_limpo1.xlsx", "arquivo_limpo1.xlsx")
+# corrigir_coluna_vazia("EMAIL", "ex_1.xlsx")
+# corrigir_coluna_vazia("DT_AFASTAMENTO", "ex_1.xlsx")
+
