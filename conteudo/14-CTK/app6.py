@@ -1,0 +1,1 @@
+entrada = input("Digite o nome do virus: ")
