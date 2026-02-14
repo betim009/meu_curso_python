@@ -4,6 +4,12 @@
 
 **Processo 1 - Estrutura inicial do app**
 Nesta etapa foi criado o app base com CustomTkinter: janela simples, um botao de teste e loop principal.
+Metodos e parametros usados:
+- `ctk.CTk()`: cria a janela principal.
+- `app.geometry("400x150")`: define largura x altura fixa da janela.
+- `ctk.CTkButton(app, text=..., command=...)`: cria botao com texto e callback.
+- `button.pack(padx=20, pady=20)`: posiciona com espacamento horizontal e vertical.
+- `app.mainloop()`: inicia loop da interface.
 
 ```python
 import customtkinter as ctk
@@ -30,6 +36,10 @@ if __name__ == "__main__":
 **Dimensao**
 **Processo 2 - Ajuste de dimensao para tela inteira**
 Aqui o app passou a abrir automaticamente com a largura e altura da tela do usuario.
+Metodos e parametros usados:
+- `app.winfo_screenwidth()`: le a largura da tela.
+- `app.winfo_screenheight()`: le a altura da tela.
+- `app.geometry(f"{screen_width}x{screen_height}+0+0")`: aplica tamanho total e posicao no canto superior esquerdo.
 
 ```py
 import customtkinter as ctk
@@ -57,6 +67,11 @@ if __name__ == "__main__":
 
 **Processo 3 - Criacao do layout principal**
 Foi implementado o layout com container central, duas linhas e duas colunas com proporcoes definidas.
+Metodos e parametros usados:
+- `ctk.CTkFrame(..., corner_radius=0, fg_color=...)`: cria containers sem borda arredondada e com cor.
+- `place(relx=..., rely=..., relwidth=..., relheight=..., anchor=...)`: posiciona com proporcoes relativas.
+- `row_gap`, `column_gap`: controlam espaco vertical e horizontal entre blocos.
+- `left_col_width`, `right_col_width`, `left_margin`: calculam larguras e centralizacao das colunas.
 
 ```py
 import customtkinter as ctk
@@ -115,6 +130,11 @@ if __name__ == "__main__":
 
 **Processo 4 - Navegacao por meses no topo**
 Foram adicionados 12 botoes de meses na primeira linha para preparar o filtro por periodo.
+Metodos e parametros usados:
+- `create_month_buttons(parent)`: funcao para montar botoes dos meses.
+- `parent.grid_rowconfigure(0, weight=1)`: distribui altura da linha do grid.
+- `parent.grid_columnconfigure(col, weight=1)`: distribui largura entre colunas.
+- `month_button.grid(row=0, column=col, padx=4, pady=0, sticky="")`: coloca botoes lado a lado com espacamento.
 
 ```py
 import customtkinter as ctk
@@ -198,6 +218,14 @@ if __name__ == "__main__":
 
 **Processo 5 - Integracao com MySQL e formulario de venda**
 Foi criada a conexao com banco, funcao de insert e formulario na coluna esquerda para cadastrar vendas.
+Metodos e parametros usados:
+- `mysql.connector.connect(host=..., user=..., password=..., database=...)`: abre conexao com MySQL.
+- `cursor.execute(query, (...))`: executa SQL parametrizado.
+- `conn.commit()`: confirma gravacao no banco.
+- `conn.cursor()` e `cursor.close()`: cria e encerra cursor.
+- `CTkEntry(...).get()`: coleta valores digitados.
+- `float(...)` e `int(...)`: convertem campos numericos.
+- `insertVenda(venda)`: recebe dicionario com `titulo`, `valor`, `metodo_pagamento`, `dia`, `mes`, `ano`.
 
 ```py
 import customtkinter as ctk
@@ -394,6 +422,13 @@ if __name__ == "__main__":
 
 **Processo 6 - Consulta por mes e exibicao de resultados**
 Foi adicionada a funcao `selectByMes(mes)`, acao dos botoes de meses e renderizacao dos resultados na segunda coluna, alem de ajustes visuais.
+Metodos e parametros usados:
+- `selectByMes(mes)`: filtra vendas por mes usando `WHERE mes = %s`.
+- `conn.cursor(dictionary=True)`: retorna resultado como dicionario.
+- `cursor.fetchall()`: retorna todos os registros encontrados.
+- `create_month_buttons(top_row, on_month_click)`: liga botoes a uma callback com parametro do mes.
+- `render_sales_results(parent, mes, sales)`: limpa area e renderiza cards de resultado.
+- `CTkScrollableFrame(...).pack(fill="both", expand=True, padx=8, pady=8)`: cria area rolavel para listar resultados.
 
 ```py
 import customtkinter as ctk
