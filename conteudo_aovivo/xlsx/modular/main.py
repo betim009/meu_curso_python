@@ -44,6 +44,7 @@ def corrigir_coluna_vazia_xlsx(df, coluna, name_file):
             df.at[index, coluna] = "-"
 
     df.to_excel(name_file, index=False)
+    return df
     
 
 if __name__ == "__main__":
@@ -57,7 +58,6 @@ if __name__ == "__main__":
 
     instancia_df = clean_xlsx(instancia_df)
     instancia_df = create_cols(instancia_df, 1)
-
     create_xlsx(instancia_df, "arquivo_limpo.xlsx")
     df_corrigido = corrigir_coluna_vazia_xlsx(instancia_df, "NOME SOCIAL","arquivo_limpo.xlsx")
     df_corrigido = corrigir_coluna_vazia_xlsx(instancia_df, "ONDA ORIGINAL","arquivo_limpo.xlsx")
