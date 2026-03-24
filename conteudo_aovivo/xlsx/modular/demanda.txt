@@ -1,0 +1,9 @@
+a) coluna função pegar só operador
+
+b) desligamento coloca o filtro pra manter tudo o que é vazio e pegar também o que é do mês vigente
+
+c) substituir o nome social pra ser o nome do operador 
+
+d) no supervisor vem a matricula , nome, precisa tirar a matricula e deixar só o nome
+
+e) Todos os operadores que tem a coluna status ativo precisam ter supervisão, escala e data de go live
