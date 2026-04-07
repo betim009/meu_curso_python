@@ -83,13 +83,3 @@ def filtrar_coluna_null(df, col, valor):
             continue
     return pd.DataFrame(new_df)
 
-
-if __name__ == "__main__":
-    instancia_df = load_excel("quadro_janeiro.xlsx", 2, None, False, str)
-
-    instancia_df = clean_xlsx(instancia_df)
-    instancia_df = create_cols(instancia_df, 1)
-    create_xlsx(instancia_df, "arquivo_limpo.xlsx")
-
-    # df_corrigido = corrigir_coluna_vazia_xlsx(instancia_df, "NOME SOCIAL","arquivo_limpo.xlsx")
-    # df_corrigido = corrigir_coluna_vazia_xlsx(instancia_df, "ONDA ORIGINAL","arquivo_limpo.xlsx")
