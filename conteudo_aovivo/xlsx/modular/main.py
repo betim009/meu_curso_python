@@ -83,3 +83,69 @@ def filtrar_coluna_null(df, col, valor):
             continue
     return pd.DataFrame(new_df)
 
+
+def substituir_valores_coluna(df, coluna_destino, coluna_origem):
+    if coluna_destino not in df.columns:
+        raise ValueError(f"Coluna '{coluna_destino}' nao encontrada.")
+
+    if coluna_origem not in df.columns:
+        raise ValueError(f"Coluna '{coluna_origem}' nao encontrada.")
+
+    data_frame = df.copy()
+    data_frame[coluna_destino] = data_frame[coluna_origem]
+
+    return data_frame
+
+
+def remover_matricula_coluna(df, coluna):
+    if coluna not in df.columns:
+        raise ValueError(f"Coluna '{coluna}' nao encontrada.")
+
+    data_frame = df.copy()
+
+    def tratar_valor(valor):
+        if pd.isna(valor):
+            return valor
+
+        partes = str(valor).split(",", 1)
+        if len(partes) == 2:
+            return partes[1].strip()
+
+        return str(valor).strip()
+
+    data_frame[coluna] = data_frame[coluna].apply(tratar_valor)
+
+    return data_frame
+
+
+def filtrar_operadores_ativos_campos_pendentes(
+    df, col_status, status, col_funcao, valor_funcao, colunas_obrigatorias
+):
+    for coluna in [col_status, col_funcao] + colunas_obrigatorias:
+        if coluna not in df.columns:
+            raise ValueError(f"Coluna '{coluna}' nao encontrada.")
+
+    data_frame = df.copy()
+    filtro_status = data_frame[col_status].astype(str).str.strip() == status
+    filtro_funcao = data_frame[col_funcao].astype(str).str.contains(valor_funcao, na=False)
+    data_frame = data_frame[filtro_status & filtro_funcao].copy()
+
+    def coluna_vazia(valor):
+        if pd.isna(valor):
+            return True
+
+        texto = str(valor).strip()
+        return texto == "" or texto == "-" or texto.lower() == "nan"
+
+    pendencias = []
+    for _, row in data_frame.iterrows():
+        campos_pendentes = []
+        for coluna in colunas_obrigatorias:
+            if coluna_vazia(row[coluna]):
+                campos_pendentes.append(coluna)
+        pendencias.append(", ".join(campos_pendentes))
+
+    data_frame["PENDENCIAS"] = pendencias
+    data_frame = data_frame[data_frame["PENDENCIAS"] != ""]
+
+    return data_frame
