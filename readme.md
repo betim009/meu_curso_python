@@ -1,79 +1,148 @@
-# 👨‍🏫 Meu Curso de Python
+# Meu Curso de Python
 
-Bem-vindo ao repositório **Meu Curso de Python**!  
-Este projeto foi criado com muito cuidado e didática para **ajudar pessoas iniciantes a aprender Python do zero** — passo a passo, com explicações claras, exemplos práticos e conteúdos organizados por tópicos.
+Este repositório é um curso gratuito de Python criado para quem está começando do zero.
 
-Se você está começando ou quer reforçar sua base em programação com Python, aqui é o seu lugar! 🐍✨
+A proposta é aprender programação com explicações simples, exemplos comentados e prática constante. Cada módulo apresenta um conceito novo, mostra quando usar esse conceito e propõe exercícios para fixação.
 
----
-
-## 🧠 Sobre o projeto
-
-Este repositório é um curso completo e gratuito com:
-
-- Conteúdos explicativos
-- Exercícios com gabarito
-- Exemplos comentados
-- Materiais didáticos em Markdown
-- Casos práticos com bibliotecas populares
+Você não precisa saber programar antes de começar.
 
 ---
 
-## 📑 Sumário de Conteúdo
+## Para quem é este curso?
 
-| Seção | Descrição |
-|-------|-----------|
-| [✔️ Atividades](https://github.com/betim009/meu_curso_python/tree/main/conteudo/atividades) | Lista de exercícios com foco em prática. |
-| [📌 1 - Tipos de Dados](https://github.com/betim009/meu_curso_python/tree/main/conteudo/01-tipos_dados) | Variáveis, strings, inteiros, floats, booleanos, listas e mais. |
-| [🔀 2 - Estrutura de Condições](https://github.com/betim009/meu_curso_python/tree/main/conteudo/02-condicoes) | if, elif, else e operadores lógicos. |
-| [🔁 3 - Estrutura de Repetições](https://github.com/betim009/meu_curso_python/tree/main/conteudo/03-repeticoes) | Loops `for`, `while` e controle de fluxo. |
-| [🚨 4 - Funções](https://github.com/betim009/meu_curso_python/tree/main/conteudo/04-funcoes) | Criação e uso de funções em Python. |
-| [🚀 5 - Requisições para API's](https://github.com/betim009/meu_curso_python/tree/main/conteudo/05-requests) | Como fazer requisições com a biblioteca `requests`. |
-| [📁 6 - Arquivos](https://github.com/betim009/meu_curso_python/tree/main/conteudo/06-arquivos) | Leitura e escrita de arquivos `.txt`, `.csv` e mais. |
-| [🅿️ 7 - Pandas para Arquivos](https://github.com/betim009/meu_curso_python/tree/main/conteudo/07-pandas) | Leitura e manipulação de dados com `pandas`. |
-| └─ [7.1 - Métodos guia rápido](https://github.com/betim009/meu_curso_python/blob/main/conteudo/07-pandas/readme_1.md) |
-| └─ [7.2 - Métodos com explicação](https://github.com/betim009/meu_curso_python/blob/main/conteudo/07-pandas/readme_2.md) |
-| └─ [7.3 - Exemplos práticos](https://github.com/betim009/meu_curso_python/blob/main/conteudo/07-pandas/readme_3.md) |
-| └─ [7.4 - Gráficos com Pandas](https://github.com/betim009/meu_curso_python/blob/main/conteudo/07-pandas/readme_4.md) |
-| [📶 7.2 - Gráficos/plots com matplotlib e plotly](https://github.com/betim009/meu_curso_python/tree/main/conteudo/07-plots) | Gráficos simples e interativos com `matplotlib` e `plotly`. |
-| [📶 8 - MySQL com Python](https://github.com/betim009/meu_curso_python/tree/main/conteudo/08-MySQL) | Conexão com bancos de dados e consultas SQL com `mysql.connector`. |
-| [🅿️ 9 - Flask](https://github.com/betim009/meu_curso_python/tree/main/conteudo/09-flask) | Leitura e manipulação de dados com `pandas`. |
-| └─ [9.1 - REST API](https://github.com/betim009/meu_curso_python/blob/main/conteudo/09-flask/readme_1.md) |
-| └─ [9.2 - REST API - MYSQL](https://github.com/betim009/meu_curso_python/blob/main/conteudo/09-flask/readme_2.md) |
-| └─ [9.3 - Blueprints](https://github.com/betim009/meu_curso_python/blob/main/conteudo/09-flask/readme_3.md) |
-| └─ [9.4 - CSS / Jinja / Gráficos](https://github.com/betim009/meu_curso_python/blob/main/conteudo/09-flask/readme_4.md) |
-| [🖼️ 10 - CustomTkinter](https://github.com/betim009/meu_curso_python/tree/main/conteudo/10-customtkinter) | Criando interfaces gráficas com `customtkinter`. |
-| [🕸️ 11 - Selenium](https://github.com/betim009/meu_curso_python/tree/main/conteudo/11-selenium) | Automação e webscraping com `selenium`. |
-| [📈 12 - Streamlit](https://github.com/betim009/meu_curso_python/tree/main/conteudo/12-streamlit) | Aplicações web interativas com `streamlit`. |
-<<<<<<< e9se05-codex/analisa-o-repositório
-| └─ [12.1 - Template base](https://github.com/betim009/meu_curso_python/blob/main/conteudo/12-streamlit/template/readme.md) |
-| └─ [12.2 - Widgets](https://github.com/betim009/meu_curso_python/blob/main/conteudo/12-streamlit/widgets/readme.md) |
-=======
->>>>>>> main
----
+Este curso é indicado para:
 
-## 🚀 Objetivo
-
-Criar um material simples, acessível e direto ao ponto para:
-
-- Quem nunca programou
-- Quem está com dificuldades de entender a base
-- Quem quer revisar os principais fundamentos
-- Quem busca um material organizado e gratuito
+- Pessoas que nunca programaram.
+- Alunos que estão aprendendo lógica de programação.
+- Quem já viu Python, mas sente dificuldade na base.
+- Quem quer revisar os fundamentos com exemplos práticos.
+- Quem quer montar um portfólio inicial no GitHub.
 
 ---
 
-## 🤝 Contribuindo
+## O que você vai aprender?
 
-Sinta-se à vontade para abrir issues com sugestões ou correções, e para enviar PRs com melhorias!
+Ao longo do curso, você vai aprender a:
+
+- Criar variáveis e trabalhar com tipos de dados.
+- Usar condições para o programa tomar decisões.
+- Repetir tarefas com `for` e `while`.
+- Organizar código usando funções.
+- Ler e salvar arquivos.
+- Tratar erros com `try` e `except`.
+- Manipular tabelas com `pandas`.
+- Criar gráficos com Python.
+- Conectar Python com MySQL.
+- Criar classes e objetos.
+- Criar aplicações web com Flask e Streamlit.
+- Criar interfaces gráficas com CustomTkinter.
+- Automatizar tarefas com Selenium.
 
 ---
 
-## 💡 Dica
+## Como estudar
 
-Use esse repositório como uma **trilha de aprendizado pessoal**. Vá lendo os tópicos, testando os códigos e resolvendo os exercícios. O conteúdo foi feito pensando em **clareza acima de tudo**!
+Siga esta ordem em cada módulo:
+
+1. Leia o `README.md` do módulo.
+2. Rode os exemplos no seu computador.
+3. Altere pequenas partes do código e veja o que acontece.
+4. Faça os exercícios sem olhar o gabarito.
+5. Compare sua solução com o gabarito.
+6. Faça o mini projeto do módulo.
+7. Antes de avançar, tente explicar o código com suas palavras.
+
+Aprender programação não é decorar comandos. É entender problemas, escrever soluções, testar, errar e corrigir.
 
 ---
 
-📩 Em caso de dúvidas, entre em contato ou me siga para acompanhar atualizações futuras.
+## Estrutura dos módulos
 
+| Módulo | Tema | Objetivo |
+|---|---|---|
+| [01 - Tipos de Dados](conteudo/01-tipos_dados) | Variáveis e valores | Entender os primeiros dados usados em Python. |
+| [02 - Condições](conteudo/02-condicoes) | `if`, `elif`, `else` | Fazer o programa tomar decisões. |
+| [03 - Repetições](conteudo/03-repeticoes) | `for` e `while` | Repetir tarefas automaticamente. |
+| [04 - Funções](conteudo/04-funcoes) | Organização de código | Criar blocos reutilizáveis. |
+| [05 - Requests](conteudo/05-requests) | APIs | Buscar dados na internet com Python. |
+| [06 - Arquivos](conteudo/06-arquivos) | Leitura e escrita | Salvar e carregar informações. |
+| [07 - Pandas](conteudo/07-pandas) | Tabelas e CSV | Manipular dados em formato de tabela. |
+| [07 - Plots](conteudo/07-plots) | Gráficos | Transformar dados em visualizações. |
+| [08 - MySQL](conteudo/08-MySQL) | Banco de dados | Conectar Python a um banco relacional. |
+| [09 - Flask](conteudo/09-flask) | Web com Python | Criar rotas, páginas e APIs simples. |
+| [10 - CustomTkinter](conteudo/10-customtkinter) | Interface gráfica | Criar janelas e formulários desktop. |
+| [11 - Selenium](conteudo/11-selenium) | Automação | Controlar navegador e coletar dados. |
+| [12 - Streamlit](conteudo/12-streamlit) | Dashboards | Criar aplicações web interativas. |
+| [13 - Try/Except](conteudo/13-tryexcepts) | Tratamento de erros | Evitar que o programa quebre de forma inesperada. |
+| [14 - CTK](conteudo/14-CTK) | CustomTkinter avançado | Evoluir projetos de interface gráfica. |
+| [15 - Classes](conteudo/15-classes) | Classes e objetos | Entender a base da programação orientada a objetos. |
+| [POO](conteudo/POO) | Exemplos de POO | Ver exemplos mais avançados com herança e abstração. |
+| [Atividades](conteudo/atividades) | Exercícios e simulados | Praticar lógica e resolver desafios. |
+
+Observação: a numeração atual foi mantida para não quebrar os links existentes. Em uma próxima revisão, os módulos podem ser renumerados para deixar a trilha ainda mais linear.
+
+---
+
+## Projetos práticos
+
+Durante o curso, a ideia é construir pequenos projetos, como:
+
+- Calculadora de IMC.
+- Sistema de cadastro.
+- Agenda salva em arquivo.
+- Analisador de CSV.
+- Relatório com gráficos.
+- Mini dashboard.
+- API simples com Flask.
+- Automação simples com Selenium.
+- Sistema de estoque usando classes.
+
+Projetos pequenos são importantes porque mostram por que cada conceito existe.
+
+---
+
+## Diferencial do curso
+
+Este curso foi pensado para iniciantes.
+
+Por isso, cada conteúdo deve responder:
+
+- O que é isso?
+- Por que eu usaria isso?
+- Como eu uso na prática?
+- Quais erros devo evitar?
+
+O objetivo não é apenas mostrar código pronto. O objetivo é ajudar o aluno a entender o raciocínio por trás do código.
+
+---
+
+## Como baixar o projeto
+
+```bash
+git clone https://github.com/betim009/meu_curso_python.git
+cd meu_curso_python
+```
+
+Depois, entre na pasta do módulo que deseja estudar e siga as instruções do `README.md`.
+
+---
+
+## Contribuições
+
+Sugestões, correções e melhorias são bem-vindas.
+
+Você pode contribuir com:
+
+- Correções de texto.
+- Novos exercícios.
+- Gabaritos mais explicativos.
+- Exemplos comentados.
+- Mini projetos.
+
+---
+
+## Mensagem final
+
+Se você está começando, vá com calma.
+
+Programar é uma habilidade construída com prática. Leia, teste, erre, corrija e tente de novo. O objetivo deste curso é ajudar você a criar uma base forte em Python, passo a passo.
