@@ -19,19 +19,19 @@ Cada módulo deve ajudar o aluno a responder quatro perguntas:
 | 2 | `02-condicoes` | Decisões com `if`, `elif` e `else` |
 | 3 | `03-repeticoes` | Repetição com `for` e `while` |
 | 4 | `04-funcoes` | Organização do código com funções |
-| 5 | `13-tryexcepts` | Tratamento de erros |
+| 5 | `05-tryexcepts` | Tratamento de erros |
 | 6 | `06-arquivos` | Leitura e escrita de arquivos |
-| 7 | `07-pandas` | Manipulação de tabelas e CSV |
-| 8 | `07-plots` | Criação de gráficos |
-| 9 | `15-classes` | Classes e objetos |
-| 10 | `POO` | Exemplos mais avançados de orientação a objetos |
-| 11 | `05-requests` | Requisições para APIs |
-| 12 | `08-MySQL` | Banco de dados MySQL |
-| 13 | `09-flask` | Aplicações web com Flask |
-| 14 | `12-streamlit` | Dashboards com Streamlit |
-| 15 | `10-customtkinter` | Interfaces gráficas desktop |
-| 16 | `14-CTK` | Projetos adicionais com CustomTkinter |
-| 17 | `11-selenium` | Automação com navegador |
+| 7 | `07-classes` | Classes e objetos |
+| 8 | `08-POO` | Exemplos mais avançados de orientação a objetos |
+| 9 | `09-pandas` | Manipulação de tabelas e CSV |
+| 10 | `10-requests` | Requisições para APIs |
+| 11 | `11-plots` | Criação de gráficos |
+| 12 | `12-MySQL` | Banco de dados MySQL |
+| 13 | `13-flask` | Aplicações web com Flask |
+| 14 | `14-streamlit` | Dashboards com Streamlit |
+| 15 | `15-customtkinter` | Interfaces gráficas desktop |
+| 16 | `16-CTK` | Projetos adicionais com CustomTkinter |
+| 17 | `17-selenium` | Automação com navegador |
 | 18 | `atividades` | Exercícios, simulados e desafios |
 
 ---

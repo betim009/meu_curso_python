@@ -1,6 +1,6 @@
 # Elementos e Estilização no CustomTkinter
 
-Este guia apresenta os widgets mais comuns do **CustomTkinter** e mostra rapidamente como personalizá-los. Ele complementa o `readme.md` e os exemplos encontrados na pasta `10-customtkinter`.
+Este guia apresenta os widgets mais comuns do **CustomTkinter** e mostra rapidamente como personalizá-los. Ele complementa o `readme.md` e os exemplos encontrados na pasta `15-customtkinter`.
 
 ## Configurando o Tema
 
@@ -99,4 +99,3 @@ Widgets podem ser colocados dentro de cada aba normalmente.
 - Mantenha as fontes e cores em variáveis para reutilizá-las em vários lugares.
 
 Com esses elementos você consegue criar interfaces modernas e consistentes em Python utilizando o CustomTkinter. Consulte os arquivos `app.py`, `form_example.py` e o projeto `tabela_pagamentos` para exemplos completos.
-

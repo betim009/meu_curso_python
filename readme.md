@@ -64,22 +64,22 @@ Aprender programação não é decorar comandos. É entender problemas, escrever
 | [02 - Condições](conteudo/02-condicoes) | `if`, `elif`, `else` | Fazer o programa tomar decisões. |
 | [03 - Repetições](conteudo/03-repeticoes) | `for` e `while` | Repetir tarefas automaticamente. |
 | [04 - Funções](conteudo/04-funcoes) | Organização de código | Criar blocos reutilizáveis. |
-| [05 - Requests](conteudo/05-requests) | APIs | Buscar dados na internet com Python. |
+| [05 - Try/Except](conteudo/05-tryexcepts) | Tratamento de erros | Evitar que o programa quebre de forma inesperada. |
 | [06 - Arquivos](conteudo/06-arquivos) | Leitura e escrita | Salvar e carregar informações. |
-| [07 - Pandas](conteudo/07-pandas) | Tabelas e CSV | Manipular dados em formato de tabela. |
-| [07 - Plots](conteudo/07-plots) | Gráficos | Transformar dados em visualizações. |
-| [08 - MySQL](conteudo/08-MySQL) | Banco de dados | Conectar Python a um banco relacional. |
-| [09 - Flask](conteudo/09-flask) | Web com Python | Criar rotas, páginas e APIs simples. |
-| [10 - CustomTkinter](conteudo/10-customtkinter) | Interface gráfica | Criar janelas e formulários desktop. |
-| [11 - Selenium](conteudo/11-selenium) | Automação | Controlar navegador e coletar dados. |
-| [12 - Streamlit](conteudo/12-streamlit) | Dashboards | Criar aplicações web interativas. |
-| [13 - Try/Except](conteudo/13-tryexcepts) | Tratamento de erros | Evitar que o programa quebre de forma inesperada. |
-| [14 - CTK](conteudo/14-CTK) | CustomTkinter avançado | Evoluir projetos de interface gráfica. |
-| [15 - Classes](conteudo/15-classes) | Classes e objetos | Entender a base da programação orientada a objetos. |
-| [POO](conteudo/POO) | Exemplos de POO | Ver exemplos mais avançados com herança e abstração. |
+| [07 - Classes](conteudo/07-classes) | Classes e objetos | Entender a base da programação orientada a objetos. |
+| [08 - POO](conteudo/08-POO) | Orientação a objetos | Ver exemplos mais avançados com herança e abstração. |
+| [09 - Pandas](conteudo/09-pandas) | Tabelas e CSV | Manipular dados em formato de tabela. |
+| [10 - Requests](conteudo/10-requests) | APIs | Buscar dados na internet com Python. |
+| [11 - Plots](conteudo/11-plots) | Gráficos | Transformar dados em visualizações. |
+| [12 - MySQL](conteudo/12-MySQL) | Banco de dados | Conectar Python a um banco relacional. |
+| [13 - Flask](conteudo/13-flask) | Web com Python | Criar rotas, páginas e APIs simples. |
+| [14 - Streamlit](conteudo/14-streamlit) | Dashboards | Criar aplicações web interativas. |
+| [15 - CustomTkinter](conteudo/15-customtkinter) | Interface gráfica | Criar janelas e formulários desktop. |
+| [16 - CTK](conteudo/16-CTK) | CustomTkinter avançado | Evoluir projetos de interface gráfica. |
+| [17 - Selenium](conteudo/17-selenium) | Automação | Controlar navegador e coletar dados. |
 | [Atividades](conteudo/atividades) | Exercícios e simulados | Praticar lógica e resolver desafios. |
 
-Observação: a numeração atual foi mantida para não quebrar os links existentes. Em uma próxima revisão, os módulos podem ser renumerados para deixar a trilha ainda mais linear.
+Os módulos de `01` a `08` formam a base do curso. Depois disso, o aluno avança para dados, APIs, banco, web, interfaces e automação.
 
 ---
 

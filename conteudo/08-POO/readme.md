@@ -2,7 +2,7 @@
 
 Esta pasta contém exemplos de programação orientada a objetos em Python.
 
-Antes de estudar estes arquivos, faça primeiro o módulo [`15-classes`](../15-classes). Ele apresenta a base: classe, objeto, atributo, método e `__init__`.
+Antes de estudar estes arquivos, faça primeiro o módulo [`07-classes`](../07-classes). Ele apresenta a base: classe, objeto, atributo, método e `__init__`.
 
 Aqui os exemplos avançam para ideias como:
 

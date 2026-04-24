@@ -5,7 +5,7 @@ Este projeto demonstra como exibir e gerenciar um arquivo CSV em uma interface g
 ## Estrutura
 
 ```
-conteudo/10-customtkinter/
+conteudo/15-customtkinter/
 └─ tabela_pagamentos/
    ├─ app.py
    ├─ pagamentos_empresas.csv
@@ -22,7 +22,7 @@ conteudo/10-customtkinter/
 1. Navegue até a pasta do projeto:
 
    ```bash
-   cd conteudo/10-customtkinter/tabela_pagamentos
+   cd conteudo/15-customtkinter/tabela_pagamentos
    ```
 
 2. (Opcional) Crie e ative um ambiente virtual:
