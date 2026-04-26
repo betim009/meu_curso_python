@@ -1,0 +1,8 @@
+sku,nome,categoria,estoque,preco
+P001,Teclado,Perifericos,18,120.00
+P002,Mouse,Perifericos,7,80.00
+P003,Monitor,Video,5,950.00
+P004,Cadeira,Moveis,12,650.00
+P005,Notebook,Computadores,3,4200.00
+P006,Suporte,Acessorios,25,75.00
+P007,Webcam,Perifericos,8,230.00

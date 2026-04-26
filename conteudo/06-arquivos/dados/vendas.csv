@@ -1,0 +1,9 @@
+id,data,cliente,produto,quantidade,preco_unitario
+1,2026-04-01,Ana Souza,Teclado,2,120.00
+2,2026-04-01,Bruno Lima,Mouse,1,80.00
+3,2026-04-02,Ana Souza,Monitor,1,950.00
+4,2026-04-02,Daniel Rocha,Cadeira,1,650.00
+5,2026-04-03,Eduarda Nunes,Mouse,3,80.00
+6,2026-04-03,Gabriela Martins,Notebook,1,4200.00
+7,2026-04-04,Henrique Alves,Suporte,2,75.00
+8,2026-04-04,Bruno Lima,Webcam,1,230.00

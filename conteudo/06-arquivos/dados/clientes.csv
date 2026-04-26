@@ -1,0 +1,9 @@
+id,nome,email,cidade,ativo
+1,Ana Souza,ana.souza@email.com,Sao Paulo,sim
+2,Bruno Lima,bruno.lima@email.com,Curitiba,sim
+3,Carla Mendes,carla.mendes@email.com,Recife,nao
+4,Daniel Rocha,daniel.rocha@email.com,Salvador,sim
+5,Eduarda Nunes,eduarda.nunes@email.com,Sao Paulo,sim
+6,Felipe Costa,felipe.costa@email.com,Belo Horizonte,nao
+7,Gabriela Martins,gabriela.martins@email.com,Curitiba,sim
+8,Henrique Alves,henrique.alves@email.com,Recife,sim
