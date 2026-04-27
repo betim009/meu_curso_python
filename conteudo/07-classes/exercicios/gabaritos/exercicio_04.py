@@ -1,31 +1,18 @@
-class ContaBancaria:
-    def __init__(self, titular, saldo):
-        self.titular = titular
-        self.saldo = saldo
+class Livro:
+    def __init__(self, titulo, autor, ano):
+        self.titulo = titulo
+        self.autor = autor
+        self.ano = ano
 
-    def depositar(self, valor):
-        if valor <= 0:
-            return "Valor de deposito invalido."
-
-        self.saldo += valor
-        return "Deposito realizado com sucesso."
-
-    def sacar(self, valor):
-        if valor <= 0:
-            return "Valor de saque invalido."
-
-        if valor > self.saldo:
-            return "Saldo insuficiente."
-
-        self.saldo -= valor
-        return "Saque realizado com sucesso."
-
-    def mostrar_saldo(self):
-        return f"Saldo atual: R$ {self.saldo:.2f}"
+    def exibir_resumo(self):
+        return f"{self.titulo}, de {self.autor} ({self.ano})"
 
 
-conta = ContaBancaria("Joao", 100)
-conta.depositar(50)
-conta.sacar(30)
+# Cada objeto Livro tem seus próprios dados.
+livro_1 = Livro("Python Básico", "Ana Costa", 2024)
+livro_2 = Livro("Automação com Python", "Bruno Lima", 2023)
+livro_3 = Livro("Dados para Iniciantes", "Carla Mendes", 2025)
 
-print(conta.mostrar_saldo())
+print(livro_1.exibir_resumo())
+print(livro_2.exibir_resumo())
+print(livro_3.exibir_resumo())

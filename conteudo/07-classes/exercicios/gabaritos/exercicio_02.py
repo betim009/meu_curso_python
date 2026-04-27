@@ -1,12 +1,15 @@
-class Aluno:
-    def __init__(self, nome, idade, curso):
+class Produto:
+    def __init__(self, nome, preco, quantidade):
         self.nome = nome
-        self.idade = idade
-        self.curso = curso
+        self.preco = preco
+        self.quantidade = quantidade
 
-    def apresentar(self):
-        return f"Meu nome é {self.nome}, tenho {self.idade} anos e estudo {self.curso}."
+    def calcular_total(self):
+        return self.preco * self.quantidade
 
 
-aluno = Aluno("Ana", 20, "Python")
-print(aluno.apresentar())
+# O cálculo fica dentro da classe porque depende dos dados do produto.
+produto = Produto("Teclado", 150.00, 5)
+
+print(f"Produto: {produto.nome}")
+print(f"Total em estoque: R$ {produto.calcular_total():.2f}")

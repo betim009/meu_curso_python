@@ -1,27 +1,17 @@
-# Exercício 02 - Método de Apresentação
+# Exercício 02 - Produto
 
-## Objetivo
+Crie uma classe `Produto`.
 
-Criar um método dentro de uma classe.
+## Requisitos
 
-## Enunciado
+- A classe deve ter os atributos `nome`, `preco` e `quantidade`.
+- Crie um método `calcular_total` que retorna `preco * quantidade`.
+- Crie um produto.
+- Exiba o nome do produto e o valor total em estoque.
 
-Crie uma classe chamada `Aluno`.
-
-A classe deve ter:
-
-- `nome`
-- `idade`
-- `curso`
-
-Crie um método chamado `apresentar()` que retorne uma frase neste formato:
+## Exemplo esperado
 
 ```text
-Meu nome é Ana, tenho 20 anos e estudo Python.
+Produto: Teclado
+Total em estoque: R$ 750.00
 ```
-
-Crie um objeto da classe e mostre o retorno do método no terminal.
-
-## Dica
-
-Métodos são funções criadas dentro de uma classe.

@@ -1,35 +1,17 @@
-# Exercício 01 - Classe Produto
+# Exercício 01 - Cliente
 
-## Objetivo
+Crie uma classe `Cliente`.
 
-Criar sua primeira classe em Python.
+## Requisitos
 
-## Enunciado
+- A classe deve ter os atributos `nome`, `idade` e `email`.
+- Crie um método `exibir_dados` que retorna uma frase com os dados do cliente.
+- Crie dois clientes diferentes.
+- Exiba os dados dos dois clientes.
 
-Crie uma classe chamada `Produto`.
-
-A classe deve ter os atributos:
-
-- `nome`
-- `preco`
-- `quantidade`
-
-Depois, crie um objeto com os dados:
-
-- Nome: `"Caderno"`
-- Preço: `18.50`
-- Quantidade: `3`
-
-Mostre os dados do produto no terminal.
-
-## Saída esperada
+## Exemplo esperado
 
 ```text
-Caderno
-18.5
-3
+Ana Souza - 29 anos - ana@email.com
+Bruno Lima - 35 anos - bruno@email.com
 ```
-
-## Dica
-
-Use o método `__init__` para receber os dados no momento em que o objeto for criado.

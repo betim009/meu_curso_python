@@ -1,41 +1,16 @@
-# Exercício 04 - Conta Bancária
+# Exercício 04 - Livro
 
-## Objetivo
+Crie uma classe `Livro`.
 
-Praticar atributos, métodos e validações.
+## Requisitos
 
-## Enunciado
+- A classe deve ter os atributos `titulo`, `autor` e `ano`.
+- Crie um método `exibir_resumo`.
+- Crie três livros.
+- Exiba o resumo de cada livro.
 
-Crie uma classe chamada `ContaBancaria`.
-
-A classe deve ter:
-
-- `titular`
-- `saldo`
-
-Crie os métodos:
-
-- `depositar(valor)`
-- `sacar(valor)`
-- `mostrar_saldo()`
-
-Regras:
-
-- Não permita depósito menor ou igual a zero.
-- Não permita saque menor ou igual a zero.
-- Não permita saque maior que o saldo.
-
-## Exemplo
-
-```python
-conta = ContaBancaria("Joao", 100)
-conta.depositar(50)
-conta.sacar(30)
-print(conta.mostrar_saldo())
-```
-
-## Saída esperada
+## Exemplo esperado
 
 ```text
-Saldo atual: R$ 120.00
+Python Básico, de Ana Costa (2024)
 ```

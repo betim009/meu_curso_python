@@ -1,22 +1,18 @@
-class Aluno:
-    def __init__(self, nome, nota_1, nota_2):
+class Funcionario:
+    def __init__(self, nome, cargo, salario):
         self.nome = nome
-        self.nota_1 = nota_1
-        self.nota_2 = nota_2
+        self.cargo = cargo
+        self.salario = salario
 
-    def calcular_media(self):
-        return (self.nota_1 + self.nota_2) / 2
+    def exibir_dados(self):
+        return f"{self.nome} - {self.cargo} - R$ {self.salario:.2f}"
 
-    def situacao(self):
-        media = self.calcular_media()
-
-        if media >= 7:
-            return "Aprovado"
-
-        return "Reprovado"
+    def calcular_salario_anual(self):
+        return self.salario * 12
 
 
-aluno = Aluno("Carlos", 8, 6)
+# A classe representa uma entidade comum em sistemas de RH.
+funcionario = Funcionario("Carla Mendes", "Analista", 4200.00)
 
-print(aluno.calcular_media())
-print(aluno.situacao())
+print(funcionario.exibir_dados())
+print(f"Salário anual: R$ {funcionario.calcular_salario_anual():.2f}")
