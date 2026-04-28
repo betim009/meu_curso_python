@@ -1,0 +1,16 @@
+id_cliente,cliente,cidade,estado,segmento,data_cadastro
+1,Ana Souza,Sao Paulo,SP,Varejo,2025-02-10
+2,Bruno Lima,Rio de Janeiro,RJ,Varejo,2025-03-12
+3,Carla Mendes,Belo Horizonte,MG,Empresa,2025-01-18
+4,Diego Alves,Sao Paulo,SP,Empresa,2024-11-05
+5,Elisa Rocha,Curitiba,PR,Varejo,2025-04-21
+6,Fernando Costa,Recife,PE,Varejo,2025-05-30
+7,Gabriela Nunes,Sao Paulo,SP,Empresa,2024-09-14
+8,Henrique Dias,Porto Alegre,RS,Varejo,2025-06-08
+9,Isabela Martins,Rio de Janeiro,RJ,Empresa,2024-12-03
+10,Joana Freitas,Salvador,BA,Empresa,2025-02-27
+11,Kaio Ribeiro,Sao Paulo,SP,Varejo,2025-07-11
+12,Larissa Teixeira,Curitiba,PR,Varejo,2025-08-16
+13,Marcelo Pinto,Belo Horizonte,MG,Varejo,2025-09-02
+14,Natalia Gomes,Recife,PE,Empresa,2025-01-09
+15,Otavio Barros,Sao Paulo,SP,Varejo,2025-10-20

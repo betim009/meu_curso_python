@@ -1,0 +1,26 @@
+id_venda,data,cliente,cidade,produto,categoria,preco_unitario,quantidade,desconto,vendedor,forma_pagamento,valor_total
+1,2026-01-03,Ana Souza,Sao Paulo,Mouse sem fio,Perifericos,89.90,2,0.00,Mariana,Cartao,179.80
+2,2026-01-03,Bruno Lima,Rio de Janeiro,Teclado mecanico,Perifericos,249.90,1,10.00,Carlos,Pix,239.90
+3,2026-01-04,Carla Mendes,Belo Horizonte,Monitor 24,Monitores,899.90,1,0.00,Mariana,Boleto,899.90
+4,2026-01-05,Diego Alves,Sao Paulo,Notebook Pro,Computadores,4299.00,1,150.00,Joao,Cartao,4149.00
+5,2026-01-06,Elisa Rocha,Curitiba,Headset USB,Perifericos,159.90,3,20.00,Carlos,Pix,459.70
+6,2026-01-07,Fernando Costa,Recife,Webcam HD,Perifericos,219.90,2,0.00,Mariana,Cartao,439.80
+7,2026-01-08,Gabriela Nunes,Sao Paulo,Monitor 24,Monitores,899.90,2,100.00,Joao,Cartao,1699.80
+8,2026-01-09,Henrique Dias,Porto Alegre,Mouse sem fio,Perifericos,89.90,5,0.00,Carlos,Pix,449.50
+9,2026-01-10,Isabela Martins,Rio de Janeiro,Cadeira ergonomica,Mobiliario,1299.00,1,80.00,Mariana,Cartao,1219.00
+10,2026-01-11,Joana Freitas,Salvador,Notebook Pro,Computadores,4299.00,1,0.00,Joao,Boleto,4299.00
+11,2026-01-12,Kaio Ribeiro,Sao Paulo,Suporte notebook,Acessorios,119.90,4,0.00,Carlos,Pix,479.60
+12,2026-01-13,Larissa Teixeira,Curitiba,Teclado mecanico,Perifericos,249.90,2,0.00,Mariana,Cartao,499.80
+13,2026-01-14,Marcelo Pinto,Belo Horizonte,Mouse sem fio,Perifericos,89.90,1,0.00,Joao,Pix,89.90
+14,2026-01-15,Natalia Gomes,Recife,Monitor 24,Monitores,899.90,1,50.00,Carlos,Cartao,849.90
+15,2026-01-16,Otavio Barros,Sao Paulo,Headset USB,Perifericos,159.90,2,0.00,Mariana,Pix,319.80
+16,2026-01-17,Patricia Melo,Rio de Janeiro,Notebook Pro,Computadores,4299.00,1,200.00,Joao,Cartao,4099.00
+17,2026-01-18,Renato Lopes,Porto Alegre,Webcam HD,Perifericos,219.90,3,30.00,Carlos,Boleto,629.70
+18,2026-01-19,Sofia Castro,Salvador,Cadeira ergonomica,Mobiliario,1299.00,2,100.00,Mariana,Cartao,2498.00
+19,2026-01-20,Tiago Araujo,Sao Paulo,Suporte notebook,Acessorios,119.90,2,0.00,Joao,Pix,239.80
+20,2026-01-21,Vanessa Cardoso,Belo Horizonte,Teclado mecanico,Perifericos,249.90,1,0.00,Carlos,Cartao,249.90
+21,2026-01-22,Wagner Martins,Curitiba,Monitor 24,Monitores,899.90,1,0.00,Mariana,Pix,899.90
+22,2026-01-23,Yasmin Duarte,Recife,Mouse sem fio,Perifericos,89.90,4,0.00,Joao,Cartao,359.60
+23,2026-01-24,Zeca Oliveira,Sao Paulo,Notebook Pro,Computadores,4299.00,1,300.00,Carlos,Cartao,3999.00
+24,2026-01-25,Aline Martins,Rio de Janeiro,Headset USB,Perifericos,159.90,2,10.00,Mariana,Pix,309.80
+25,2026-01-26,Caio Torres,Salvador,Webcam HD,Perifericos,219.90,1,0.00,Joao,Boleto,219.90

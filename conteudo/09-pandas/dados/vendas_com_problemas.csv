@@ -1,0 +1,13 @@
+id_venda,data,cliente,cidade,produto,categoria,preco_unitario,quantidade,desconto,vendedor,forma_pagamento,valor_total
+1,2026-01-03,Ana Souza,Sao Paulo,Mouse sem fio,Perifericos,89.90,2,0.00,Mariana,Cartao,179.80
+2,2026-01-03,Bruno Lima,Rio de Janeiro,Teclado mecanico,Perifericos,249.90,1,,Carlos,Pix,239.90
+3,2026-01-04,Carla Mendes,Belo Horizonte,Monitor 24,Monitores,899.90,1,0.00,Mariana,Boleto,899.90
+4,2026-01-05,Diego Alves,Sao Paulo,Notebook Pro,Computadores,4299.00,1,150.00,,Cartao,4149.00
+5,2026-01-06,Elisa Rocha,Curitiba,Headset USB,Perifericos,159.90,3,20.00,Carlos,Pix,459.70
+5,2026-01-06,Elisa Rocha,Curitiba,Headset USB,Perifericos,159.90,3,20.00,Carlos,Pix,459.70
+6,data_invalida,Fernando Costa,Recife,Webcam HD,Perifericos,219.90,2,0.00,Mariana,Cartao,439.80
+7,2026-01-08,Gabriela Nunes,Sao Paulo,Monitor 24,Monitores,899.90,2,100.00,Joao,Cartao,1699.80
+8,2026-01-09,Henrique Dias,Porto Alegre,,Perifericos,89.90,5,0.00,Carlos,Pix,449.50
+9,2026-01-10,Isabela Martins,Rio de Janeiro,Cadeira ergonomica,Mobiliario,1299.00,-1,80.00,Mariana,Cartao,1219.00
+10,2026-01-11,,Salvador,Notebook Pro,Computadores,4299.00,1,0.00,Joao,Boleto,4299.00
+11,2026-01-12,Kaio Ribeiro,Sao Paulo,Suporte notebook,Acessorios,,4,0.00,Carlos,Pix,479.60
