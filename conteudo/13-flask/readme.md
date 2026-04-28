@@ -1,58 +1,88 @@
-# Introdução ao Flask
+# 13 - Flask para Backend e APIs
 
-Flask é uma biblioteca Python usada para criar aplicações web.
+Neste modulo voce vai aprender a criar aplicacoes web e APIs usando Python com Flask.
 
-Uma aplicação web é um programa que roda no computador ou servidor e pode ser acessado pelo navegador. Com Flask, conseguimos criar páginas, rotas, formulários e APIs simples usando Python.
+Ate aqui, voce consumiu APIs com `requests`, trabalhou com pandas, graficos e banco de dados MySQL. Agora voce vai aprender o outro lado: criar uma API para que outros sistemas possam consumir os seus dados.
 
----
+O foco sera backend de sistemas reais: clientes, produtos e pedidos.
 
-## O que você vai aprender
+## Estrutura do modulo
 
-- O que é uma rota.
-- Como criar uma primeira aplicação Flask.
-- Como retornar texto no navegador.
-- Como renderizar uma página HTML.
-- Como passar dados do Python para o HTML.
-- Erros comuns ao começar com Flask.
+```text
+13-flask/
+  README.md
+  exemplos/
+    01_primeira_rota.py
+    02_api_clientes_get.py
+    03_api_produtos_post.py
+    04_parametros_e_erros.py
+  exercicios/
+    exercicios.md
+    gabaritos/
+      gabaritos.md
+      gabaritos.py
+  projeto/
+    README.md
+    app.py
+    database.py
+    schema.sql
+```
 
----
+## 1. Introducao
 
-## Explicação simples
+### O que e backend?
 
-Quando você acessa um site, o navegador faz uma requisição para um endereço.
+Backend e a parte do sistema que roda no servidor.
 
-No Flask, criamos funções que respondem a esses endereços.
+Ele geralmente cuida de:
+
+- receber requisicoes;
+- validar dados;
+- consultar banco de dados;
+- salvar informacoes;
+- aplicar regras de negocio;
+- devolver respostas para o frontend ou para outros sistemas.
+
+Quando voce usa um aplicativo, a tela que voce ve e o frontend. A parte que salva cadastro, busca produtos e registra pedidos e o backend.
+
+### O que e uma API?
+
+API e uma forma padronizada de um sistema conversar com outro.
 
 Exemplo:
 
-```python
-@app.route("/")
-def home():
-    return "Ola, Flask!"
+- um frontend pede a lista de produtos;
+- o backend consulta o banco;
+- a API retorna os produtos em JSON.
+
+Uma API nao precisa mostrar uma pagina HTML. Muitas vezes ela retorna dados.
+
+### Como sistemas web funcionam?
+
+Um fluxo simples:
+
+1. O usuario ou sistema faz uma requisicao HTTP.
+2. O Flask recebe essa requisicao em uma rota.
+3. A funcao da rota executa uma regra.
+4. O backend consulta ou altera dados.
+5. A API devolve uma resposta, geralmente em JSON.
+
+Exemplo:
+
+```text
+GET /clientes
 ```
 
-Isso significa:
+Resposta:
 
-- Quando o usuário acessar `/`
-- Execute a função `home`
-- Mostre o texto `"Ola, Flask!"`
-
----
-
-## Instalando
-
-Crie e ative um ambiente virtual fora do repositório ou dentro da sua máquina local:
-
-```bash
-python -m venv venv
-source venv/bin/activate
+```json
+[
+  {"id": 1, "nome": "Ana Souza"},
+  {"id": 2, "nome": "Bruno Lima"}
+]
 ```
 
-No Windows:
-
-```bash
-venv\Scripts\activate
-```
+## 2. Instalando Flask
 
 Instale o Flask:
 
@@ -60,9 +90,21 @@ Instale o Flask:
 pip install flask
 ```
 
----
+Para projetos com MySQL:
 
-## Exemplo comentado linha por linha
+```bash
+pip install flask mysql-connector-python
+```
+
+Para conferir:
+
+```bash
+python3 -c "import flask; print(flask.__version__)"
+```
+
+## 3. Criando aplicacao
+
+Crie um arquivo `app.py`:
 
 ```python
 from flask import Flask
@@ -72,157 +114,372 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Ola, Flask!"
+    return "API Flask funcionando!"
 
 
 if __name__ == "__main__":
     app.run(debug=True)
 ```
 
-Explicando:
-
-- `from flask import Flask` importa a classe principal do Flask.
-- `app = Flask(__name__)` cria a aplicação.
-- `@app.route("/")` define a rota principal do site.
-- `def home():` cria a função que será executada nessa rota.
-- `return "Ola, Flask!"` envia uma resposta para o navegador.
-- `app.run(debug=True)` inicia o servidor local.
-
-Para executar:
+Execute:
 
 ```bash
-python app.py
+python3 app.py
 ```
 
-Depois, acesse no navegador:
+Acesse:
 
 ```text
 http://127.0.0.1:5000
 ```
 
----
+### Explicando o codigo
 
-## Usando HTML
+- `Flask(__name__)` cria a aplicacao.
+- `@app.route("/")` define uma rota.
+- `home()` e a funcao executada quando a rota for acessada.
+- `return` envia a resposta.
+- `app.run(debug=True)` inicia o servidor local.
 
-Em projetos reais, não queremos retornar apenas texto. Queremos mostrar páginas HTML.
+## 4. Rotas ou endpoints
+
+Rota e um endereco da API.
+
+Endpoint e uma rota criada para uma finalidade especifica.
+
+Exemplos:
+
+| Metodo | Endpoint | Finalidade |
+|---|---|---|
+| GET | `/clientes` | listar clientes |
+| GET | `/clientes/1` | buscar cliente por id |
+| POST | `/clientes` | cadastrar cliente |
+| GET | `/produtos` | listar produtos |
+| POST | `/produtos` | cadastrar produto |
+
+### GET
+
+`GET` busca dados.
+
+```python
+from flask import Flask, jsonify
+
+app = Flask(__name__)
+
+clientes = [
+    {"id": 1, "nome": "Ana Souza"},
+    {"id": 2, "nome": "Bruno Lima"},
+]
+
+
+@app.route("/clientes", methods=["GET"])
+def listar_clientes():
+    return jsonify(clientes)
+```
+
+### GET por ID
+
+```python
+@app.route("/clientes/<int:id_cliente>", methods=["GET"])
+def buscar_cliente(id_cliente):
+    for cliente in clientes:
+        if cliente["id"] == id_cliente:
+            return jsonify(cliente)
+
+    return jsonify({"erro": "Cliente nao encontrado"}), 404
+```
+
+`<int:id_cliente>` significa que a rota recebe um numero.
+
+### POST
+
+`POST` cria dados.
+
+```python
+from flask import request
+
+
+@app.route("/clientes", methods=["POST"])
+def cadastrar_cliente():
+    dados = request.get_json()
+
+    novo_cliente = {
+        "id": len(clientes) + 1,
+        "nome": dados["nome"],
+        "email": dados["email"],
+    }
+
+    clientes.append(novo_cliente)
+
+    return jsonify(novo_cliente), 201
+```
+
+`request.get_json()` pega o JSON enviado no corpo da requisicao.
+
+## 5. Retorno de dados
+
+APIs geralmente retornam JSON.
+
+JSON e um formato de dados que combina bem com dicionarios e listas do Python.
+
+```python
+from flask import jsonify
+
+return jsonify({"mensagem": "Cliente cadastrado"})
+```
+
+### Codigo de status
+
+Uma resposta de API deve informar se deu certo ou errado.
+
+Codigos comuns:
+
+| Codigo | Significado |
+|---:|---|
+| 200 | sucesso |
+| 201 | criado |
+| 400 | erro nos dados enviados |
+| 404 | nao encontrado |
+| 500 | erro interno |
 
 Exemplo:
 
 ```python
-from flask import Flask, render_template
-
-app = Flask(__name__)
-
-
-@app.route("/")
-def home():
-    return render_template("index.html")
+return jsonify({"erro": "Nome e obrigatorio"}), 400
 ```
 
-O arquivo `index.html` deve ficar dentro da pasta `templates`.
+## 6. Integracao com banco
 
----
+Em projetos reais, dados nao ficam em listas dentro do codigo. Eles ficam no banco.
 
-## Passando dados para o HTML
-
-Também podemos enviar dados do Python para o HTML:
+Com MySQL:
 
 ```python
-resultados = [
-    {"id": 1, "usuario": "Alberto"},
-    {"id": 2, "usuario": "Maria"},
-]
+import os
+import mysql.connector
 
 
-@app.route("/")
-def home():
-    return render_template("resultados.html", resultados=resultados)
+def conectar():
+    return mysql.connector.connect(
+        host=os.getenv("MYSQL_HOST", "localhost"),
+        user=os.getenv("MYSQL_USER", "root"),
+        password=os.getenv("MYSQL_PASSWORD", ""),
+        database=os.getenv("MYSQL_DATABASE", "curso_flask_api"),
+    )
 ```
 
-Isso é útil para mostrar listas, tabelas, resultados de banco de dados e relatórios.
+### Buscar dados no banco
 
----
+```python
+@app.route("/clientes", methods=["GET"])
+def listar_clientes():
+    conexao = conectar()
+    cursor = conexao.cursor(dictionary=True)
 
-## Quando usar Flask?
+    cursor.execute("SELECT id_cliente, nome, email, cidade FROM clientes")
+    clientes = cursor.fetchall()
 
-Use Flask quando quiser:
+    cursor.close()
+    conexao.close()
 
-- Criar uma API simples.
-- Criar um site pequeno.
-- Criar um formulário web.
-- Mostrar dados em uma página.
-- Entender como aplicações web funcionam por trás.
+    return jsonify(clientes)
+```
 
----
+### Inserir dados no banco
 
-## Erros comuns
+```python
+@app.route("/clientes", methods=["POST"])
+def cadastrar_cliente():
+    dados = request.get_json()
 
-### 1. Esquecer de instalar o Flask
+    conexao = conectar()
+    cursor = conexao.cursor()
 
-Se aparecer erro como:
+    cursor.execute(
+        """
+        INSERT INTO clientes (nome, email, cidade)
+        VALUES (%s, %s, %s)
+        """,
+        (dados["nome"], dados["email"], dados["cidade"]),
+    )
+
+    conexao.commit()
+    id_cliente = cursor.lastrowid
+
+    cursor.close()
+    conexao.close()
+
+    return jsonify({"id_cliente": id_cliente}), 201
+```
+
+Use parametros `%s` para evitar SQL injection e problemas com textos.
+
+## 7. Organizacao do codigo
+
+Para aprender, um arquivo unico funciona. Para projeto real, separe responsabilidades.
+
+Exemplo:
 
 ```text
-ModuleNotFoundError: No module named 'flask'
+projeto/
+  app.py        # rotas da API
+  database.py   # conexao com MySQL
+  schema.sql    # criacao do banco
 ```
 
-Instale com:
+No `database.py`, coloque a conexao.
 
-```bash
-pip install flask
-```
+No `app.py`, coloque as rotas.
 
-### 2. Criar `templates` com nome errado
+Essa separacao evita repeticao e deixa o codigo mais facil de manter.
 
-O Flask procura HTML na pasta chamada exatamente:
+## 8. Boas praticas
+
+### Use rotas claras
+
+Prefira:
 
 ```text
-templates
+/clientes
+/clientes/1
+/produtos
+/pedidos
 ```
 
-### 3. Esquecer de iniciar o servidor
+Evite:
 
-O arquivo não abre como HTML comum. Você precisa rodar:
+```text
+/pegar
+/dados
+/coisas
+```
+
+### Valide dados de entrada
+
+Antes de salvar:
+
+```python
+if not dados.get("nome"):
+    return jsonify({"erro": "Nome e obrigatorio"}), 400
+```
+
+### Retorne status correto
+
+- `200`: consulta OK;
+- `201`: cadastro criado;
+- `400`: dados invalidos;
+- `404`: item nao encontrado.
+
+### Feche conexoes
+
+Sempre feche cursor e conexao com banco.
+
+### Nao exponha senha no codigo
+
+Use variaveis de ambiente:
 
 ```bash
-python app.py
+export MYSQL_PASSWORD="sua_senha"
 ```
 
-### 4. Confundir rota com arquivo
+## 9. Erros comuns
 
-A rota `/` não é uma pasta. É um endereço da aplicação.
+### Rota mal definida
 
----
+Erro:
 
-## Exercícios sugeridos
+```python
+@app.route("clientes")
+```
 
-1. Crie uma rota `/` que mostre uma mensagem de boas-vindas.
-2. Crie uma rota `/sobre` que fale sobre você.
-3. Crie uma página HTML usando `render_template`.
-4. Crie uma lista de alunos em Python e mostre no HTML.
-5. Crie uma rota `/api/alunos` que retorne uma lista em JSON.
+Certo:
 
----
+```python
+@app.route("/clientes")
+```
 
-## Mini projeto
+### Retorno errado
 
-Crie um sistema web simples de cadastro de alunos.
+Erro comum: retornar lista Python diretamente em versões antigas ou retornar tipos que nao viram JSON.
 
-Requisitos:
+Use:
 
-- Página inicial.
-- Página com lista de alunos.
-- Formulário para cadastrar nome e curso.
-- Exibição dos alunos cadastrados.
+```python
+return jsonify(lista)
+```
 
-Comece usando lista em memória. Depois, como desafio, salve os dados em CSV ou banco de dados.
+### Esquecer methods no POST
 
----
+```python
+@app.route("/clientes", methods=["POST"])
+```
 
-## Resumo final
+Sem isso, a rota aceita `GET` por padrao.
 
-- Flask cria aplicações web com Python.
-- Rotas são endereços da aplicação.
-- Funções respondem às rotas.
-- `render_template` mostra arquivos HTML.
-- A pasta de HTML deve se chamar `templates`.
-- Flask é um bom primeiro passo para entender desenvolvimento web.
+### Problemas de conexao
+
+Causas comuns:
+
+- MySQL desligado;
+- banco nao criado;
+- senha errada;
+- biblioteca nao instalada.
+
+### Esquecer commit
+
+Depois de `INSERT`, `UPDATE` ou `DELETE`:
+
+```python
+conexao.commit()
+```
+
+## 10. Mini desafios
+
+### Mini desafio 1
+
+Crie uma rota `/status` que retorne:
+
+```json
+{"status": "online"}
+```
+
+### Mini desafio 2
+
+Crie uma rota `GET /clientes` que retorne uma lista em memoria.
+
+### Mini desafio 3
+
+Crie uma rota `GET /clientes/<id>` que busque um cliente pelo id.
+
+### Mini desafio 4
+
+Crie uma rota `POST /clientes` que cadastre um cliente em uma lista.
+
+### Mini desafio 5
+
+Crie uma rota `GET /produtos` que retorne produtos com nome, preco e estoque.
+
+### Mini desafio 6
+
+Valide se o campo `nome` foi enviado no POST.
+
+### Mini desafio 7
+
+Crie uma rota `GET /pedidos` que retorne pedidos com nome do cliente e total.
+
+## 11. Resumo
+
+Neste modulo voce aprendeu que:
+
+- backend roda no servidor e processa regras;
+- API permite que sistemas conversem;
+- Flask cria rotas e respostas HTTP com Python;
+- endpoints representam recursos como clientes, produtos e pedidos;
+- `GET` busca dados;
+- `POST` cria dados;
+- APIs retornam JSON;
+- codigos de status ajudam a comunicar sucesso ou erro;
+- MySQL guarda dados reais da aplicacao;
+- organizar conexao e rotas separadamente melhora o projeto.
+
+Ao final deste modulo, voce ja consegue criar uma API simples com Flask, retornar JSON e conectar o backend a um banco MySQL.
