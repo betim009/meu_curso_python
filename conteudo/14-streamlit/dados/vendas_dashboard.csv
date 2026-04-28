@@ -1,0 +1,49 @@
+id_pedido,data,mes,cliente,cidade,produto,categoria,vendedor,forma_pagamento,quantidade,preco_unitario,valor_total
+1,2026-01-05,Jan,Ana Souza,Sao Paulo,Notebook Pro,Computadores,Mariana,Cartao,1,4299.00,4299.00
+2,2026-01-08,Jan,Bruno Lima,Rio de Janeiro,Mouse sem fio,Perifericos,Carlos,Pix,3,89.90,269.70
+3,2026-01-12,Jan,Carla Mendes,Belo Horizonte,Monitor 24,Monitores,Mariana,Cartao,2,899.90,1799.80
+4,2026-01-19,Jan,Diego Alves,Sao Paulo,Headset USB,Perifericos,Joao,Boleto,2,159.90,319.80
+5,2026-02-03,Fev,Elisa Rocha,Curitiba,Cadeira ergonomica,Mobiliario,Carlos,Cartao,1,1299.00,1299.00
+6,2026-02-09,Fev,Fernando Costa,Recife,Notebook Pro,Computadores,Joao,Pix,1,4299.00,4299.00
+7,2026-02-15,Fev,Gabriela Nunes,Sao Paulo,Teclado mecanico,Perifericos,Mariana,Cartao,2,249.90,499.80
+8,2026-02-24,Fev,Henrique Dias,Porto Alegre,Monitor 24,Monitores,Carlos,Pix,1,899.90,899.90
+9,2026-03-02,Mar,Isabela Martins,Rio de Janeiro,Mouse sem fio,Perifericos,Joao,Pix,4,89.90,359.60
+10,2026-03-10,Mar,Joana Freitas,Salvador,Notebook Pro,Computadores,Mariana,Cartao,1,4299.00,4299.00
+11,2026-03-18,Mar,Kaio Ribeiro,Sao Paulo,Suporte notebook,Acessorios,Carlos,Boleto,5,119.90,599.50
+12,2026-03-27,Mar,Larissa Teixeira,Curitiba,Webcam HD,Perifericos,Joao,Cartao,2,219.90,439.80
+13,2026-04-04,Abr,Marcelo Pinto,Belo Horizonte,Monitor 24,Monitores,Mariana,Pix,3,899.90,2699.70
+14,2026-04-11,Abr,Natalia Gomes,Recife,Cadeira ergonomica,Mobiliario,Carlos,Cartao,2,1299.00,2598.00
+15,2026-04-20,Abr,Otavio Barros,Sao Paulo,Notebook Pro,Computadores,Joao,Cartao,1,4299.00,4299.00
+16,2026-04-28,Abr,Patricia Melo,Rio de Janeiro,Headset USB,Perifericos,Mariana,Pix,4,159.90,639.60
+17,2026-05-06,Mai,Renato Lopes,Porto Alegre,Notebook Pro,Computadores,Carlos,Cartao,2,4299.00,8598.00
+18,2026-05-13,Mai,Sofia Castro,Salvador,Mouse sem fio,Perifericos,Joao,Pix,6,89.90,539.40
+19,2026-05-20,Mai,Tiago Araujo,Sao Paulo,Teclado mecanico,Perifericos,Mariana,Boleto,4,249.90,999.60
+20,2026-05-29,Mai,Vanessa Cardoso,Belo Horizonte,Monitor 24,Monitores,Carlos,Cartao,2,899.90,1799.80
+21,2026-06-07,Jun,Wagner Martins,Curitiba,Webcam HD,Perifericos,Joao,Pix,5,219.90,1099.50
+22,2026-06-14,Jun,Yasmin Duarte,Recife,Cadeira ergonomica,Mobiliario,Mariana,Cartao,1,1299.00,1299.00
+23,2026-06-21,Jun,Zeca Oliveira,Sao Paulo,Notebook Pro,Computadores,Carlos,Cartao,1,4299.00,4299.00
+24,2026-06-30,Jun,Aline Martins,Rio de Janeiro,Suporte notebook,Acessorios,Joao,Pix,6,119.90,719.40
+25,2026-07-05,Jul,Caio Torres,Salvador,Monitor 24,Monitores,Mariana,Cartao,4,899.90,3599.60
+26,2026-07-12,Jul,Debora Lima,Sao Paulo,Notebook Pro,Computadores,Carlos,Pix,2,4299.00,8598.00
+27,2026-07-18,Jul,Eduardo Reis,Belo Horizonte,Headset USB,Perifericos,Joao,Cartao,5,159.90,799.50
+28,2026-07-26,Jul,Fabiana Moura,Curitiba,Mouse sem fio,Perifericos,Mariana,Pix,8,89.90,719.20
+29,2026-08-03,Ago,Gustavo Paiva,Recife,Cadeira ergonomica,Mobiliario,Carlos,Cartao,3,1299.00,3897.00
+30,2026-08-09,Ago,Helena Ramos,Porto Alegre,Notebook Pro,Computadores,Joao,Cartao,2,4299.00,8598.00
+31,2026-08-16,Ago,Igor Neves,Sao Paulo,Teclado mecanico,Perifericos,Mariana,Pix,5,249.90,1249.50
+32,2026-08-24,Ago,Julia Lopes,Rio de Janeiro,Monitor 24,Monitores,Carlos,Boleto,3,899.90,2699.70
+33,2026-09-02,Set,Karen Dias,Belo Horizonte,Mouse sem fio,Perifericos,Joao,Pix,9,89.90,809.10
+34,2026-09-10,Set,Leonardo Costa,Sao Paulo,Notebook Pro,Computadores,Mariana,Cartao,2,4299.00,8598.00
+35,2026-09-19,Set,Marina Alves,Curitiba,Webcam HD,Perifericos,Carlos,Cartao,4,219.90,879.60
+36,2026-09-27,Set,Nicolas Barros,Recife,Suporte notebook,Acessorios,Joao,Pix,7,119.90,839.30
+37,2026-10-06,Out,Olivia Mendes,Salvador,Notebook Pro,Computadores,Mariana,Cartao,3,4299.00,12897.00
+38,2026-10-12,Out,Pedro Rocha,Sao Paulo,Monitor 24,Monitores,Carlos,Pix,4,899.90,3599.60
+39,2026-10-21,Out,Quiteria Silva,Rio de Janeiro,Cadeira ergonomica,Mobiliario,Joao,Cartao,2,1299.00,2598.00
+40,2026-10-30,Out,Rafael Gomes,Belo Horizonte,Headset USB,Perifericos,Mariana,Pix,5,159.90,799.50
+41,2026-11-04,Nov,Sara Teixeira,Curitiba,Notebook Pro,Computadores,Carlos,Cartao,3,4299.00,12897.00
+42,2026-11-11,Nov,Tomas Ribeiro,Recife,Teclado mecanico,Perifericos,Joao,Pix,6,249.90,1499.40
+43,2026-11-17,Nov,Ursula Castro,Sao Paulo,Monitor 24,Monitores,Mariana,Cartao,5,899.90,4499.50
+44,2026-11-26,Nov,Vitor Martins,Porto Alegre,Mouse sem fio,Perifericos,Carlos,Boleto,10,89.90,899.00
+45,2026-12-03,Dez,Willian Freitas,Salvador,Notebook Pro,Computadores,Joao,Cartao,4,4299.00,17196.00
+46,2026-12-09,Dez,Ximena Nunes,Sao Paulo,Cadeira ergonomica,Mobiliario,Mariana,Pix,4,1299.00,5196.00
+47,2026-12-15,Dez,Yuri Correia,Rio de Janeiro,Monitor 24,Monitores,Carlos,Cartao,5,899.90,4499.50
+48,2026-12-22,Dez,Zuleica Araujo,Belo Horizonte,Headset USB,Perifericos,Joao,Pix,8,159.90,1279.20
